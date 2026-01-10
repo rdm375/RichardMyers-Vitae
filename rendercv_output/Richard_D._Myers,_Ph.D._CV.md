@@ -3,6 +3,8 @@
 - Phone: +1 832 352 8823
 - Email: [richard.d.myers@proton.me](mailto:richard.d.myers@proton.me)
 - Location: Houston, TX, USA
+- LinkedIn: [richard-myers-5997b93a2](https://linkedin.com/in/richard-myers-5997b93a2)
+- GitHub: [rdm375](https://github.com/rdm375)
 
 
 # Experience

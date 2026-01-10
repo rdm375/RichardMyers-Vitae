@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 1,
-    day: 9,
+    day: 10,
   ),
 )
 
@@ -87,6 +87,8 @@
 
 #connections(
   [#link("mailto:richard.d.myers@proton.me", icon: false, if-underline: false, if-color: false)[richard.d.myers\@proton.me]],
+  [#link("https://linkedin.com/in/richard-myers-5997b93a2", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/richard-myers-5997b93a2]],
+  [#link("https://github.com/rdm375", icon: false, if-underline: false, if-color: false)[github.com\/rdm375]],
   [#link("tel:+1-832-352-8823", icon: false, if-underline: false, if-color: false)[(832) 352-8823]],
   [Houston, TX, USA],
 )

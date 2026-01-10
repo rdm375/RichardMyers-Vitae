@@ -4,6 +4,11 @@ design:
 cv:
   name: "Richard D. Myers, Ph.D."
   email: "richard.d.myers@proton.me"
+  social_networks:
+    - network: LinkedIn
+      username: richard-myers-5997b93a2
+    - network: GitHub
+      username: rdm375
   phone: "+18323528823"
   location: "Houston, TX, USA"
 
