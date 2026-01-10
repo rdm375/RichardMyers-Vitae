@@ -14,6 +14,12 @@ Apr 2022 – Apr 2025
 
 - Worked primarily on bug fixes and enhancements for SPS (Stoner Pipeline Simulator)
 
+- Investigated feasibility of incorporating Attune/GTO thermal shell heat calculations into Synergi Gas's Slow Transient engine
+
+- Began work on a tool to convert LANL's GasModels.jl models into Attune/GTO Statefinding models and SPS models
+
+- Reverse engineered Enbridge's SlackLine Flow estimation methodology (ask me how ;^))
+
 - Focused on technical leadership, innovation, and long-term project vision within DNV’s global engineering framework
 
 
@@ -31,6 +37,8 @@ July 2012 – Apr 2022
 - Automated testing for Quickstart and GTO to support Richard Carter
 
 - Implemented step doubling in SPS (Stoner Pipeline Simulator), achieving quadratic convergence of time solutions
+
+- Reverse engineered SPS's SlackLine Flow modeling
 
 - Expanded development work across SPS in addition to Synergi Gas 4
 
