@@ -1,0 +1,232 @@
+design:
+  theme: engineeringresumes
+
+cv:
+  name: "Richard D. Myers, Ph.D."
+  email: "richard.d.myers@proton.me"
+  phone: "+18323528823"
+  location: "Houston, TX, USA"
+
+  sections:
+
+    experience:
+
+      - company: "DNV"
+        location: "Katy, TX (Remote)"
+        position: "Principal Software Development Scientist"
+        start_date: "2022-04"
+        end_date: "2025-04"
+        highlights:
+          - "Worked primarily on bug fixes and enhancements for SPS (Stoner Pipeline Simulator)"
+          - "Focused on technical leadership, innovation, and long-term project vision within DNV’s global engineering framework"
+
+      - company: "DNV"
+        location: "Katy, TX (Hybrid)"
+        position: "Senior Software Development Scientist"
+        start_date: "2012-07"
+        end_date: "2022-04"
+        highlights:
+          - "Supported software development for state finding using adjoint methods and transient optimization for gas pipeline networks in Synergi Gas 4"
+          - "Merged software updates and tested code changes prior to internal release"
+          - "Assisted Henry Rachford with development systems"
+          - "Automated testing for Quickstart and GTO to support Richard Carter"
+          - "Implemented step doubling in SPS (Stoner Pipeline Simulator), achieving quadratic convergence of time solutions"
+          - "Expanded development work across SPS in addition to Synergi Gas 4"
+          - "Note: DNV is the corporate successor to GL Noble Denton, GL Industrial Services, and Advantica"
+
+      - company: "GL Noble Denton"
+        location: "Houston, TX (Hybrid)"
+        position: "Senior Software Development Scientist"
+        start_date: "2010-01"
+        end_date: "2012-07"
+        highlights:
+          - "Supported software development for state finding using adjoint methods and transient optimization for gas pipeline networks in Synergi Gas 4"
+          - "Merged software updates and tested code changes prior to internal release"
+          - "Worked through transitional phase following merger with GL Industrial Services and Advantica"
+          - "Note: GL Noble Denton succeeded GL Industrial Services and Advantica"
+
+      - company: "GL Industrial Services"
+        location: "Houston, TX (Hybrid)"
+        position: "Software Development Scientist"
+        start_date: "2007-09"
+        end_date: "2010-01"
+        highlights:
+          - "Supported software development for state finding using adjoint methods and transient optimization for gas pipeline networks in Synergi Gas 4"
+          - "Merged software updates and tested code changes prior to internal release"
+          - "Note: GL Industrial Services succeeded Advantica"
+
+      - company: "Advantica"
+        location: "Houston, TX"
+        position: "Software Development Scientist"
+        start_date: "2007-08"
+        end_date: "2007-09"
+        highlights:
+          - "Short tenure prior to merger; contributed to ongoing development projects for safety and modeling tools"
+          - "Worked on compressor station scheduling in Synergi Gas 4"
+
+      - company: "University of St. Thomas"
+        position: "Visiting Assistant Professor"
+        start_date: "2005-08"
+        end_date: "2007-08"
+        highlights:
+          - "Taught undergraduate mathematics courses in calculus, differential equations, numerical analysis, linear algebra, probability, and real analysis"
+          - "Directed junior and senior undergraduate research seminars and independent studies"
+
+      - company: "University of St. Thomas"
+        position: "Director of Computing Facilities, Mathematics Department"
+        start_date: "2006-11"
+        end_date: "present"
+        highlights:
+          - "Managed departmental computing facilities and instructional technology"
+
+      - company: "University of Houston"
+        position: "Teaching Assistant"
+        start_date: "2003-08"
+        end_date: "2005-08"
+
+      - company: "University of Houston"
+        position: "Research Assistant"
+        start_date: "2000-06"
+        end_date: "2003-05"
+
+    education:
+      - institution: "University of Houston"
+        area: "Mathematics"
+        degree: "Ph.D."
+        end_date: 2005
+        highlights:
+          - "Advisor: Jiwen He"
+          - "Dissertation: Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems"
+
+      - institution: "University of Houston"
+        area: "Applied Mathematics"
+        degree: "M.S."
+        end_date: 2002
+
+      - institution: "University of Houston"
+        area: "Mathematics (Magna cum Laude)"
+        degree: "B.S."
+        end_date: 2000
+
+    publications:
+
+      - title: "Step Doubling for Pipeline Flow"
+        authors:
+          - "Todd F. Dupont"
+          - "Richard Myers"
+        journal: "Proceedings of the PSIG Annual Meeting"
+        location: "London, UK"
+        date: "2019-05-14"
+        url: "https://onepetro.org/PSIGAM/proceedings-abstract/PSIG19/PSIG19/2121"
+        highlights:
+          - "Paper Number: PSIG-1923"
+          - "Presented May 2019"
+          - "Available to purchase"
+
+
+#    additional_information:
+#      - name: "Computer Skills"
+#        highlights:
+#          - "Platforms: Unix (Solaris), Linux, Windows"
+#          - "Programming languages: FORTRAN77, C/C++, Shell scripting"
+#          - "Programming environments: Emacs, make, gdb, Microsoft Visual Studio"
+#          - "Typesetting: LaTeX, Microsoft Word"
+#          - "Mathematical software: Maple, MATLAB/Octave, Mathematica"
+#          - "Automatic differentiation tools: Odyssee, Tapenade"
+#          - "Parallel programming libraries: MPI, OpenMP"
+#
+#      - name: "Additional Training"
+#        highlights:
+#          - "Sun application tuning seminar — March 2004"
+#          - "CompTIA A+ certification — July 2003"
+#          - "Parallel programming with MPI seminar at University of Houston (Marc Garbey) — October 2000"
+#
+#      - name: "Professional Memberships"
+#        highlights:
+#          - "SIAM — Society for Industrial and Applied Mathematics"
+#          - "AMS — American Mathematical Society"
+
+    teaching:
+
+      - name: "Courses Taught (University of St. Thomas)"
+        highlights:
+          - "Fall 2005: MATH 1432 Calculus II; MATH 3339 Numerical Analysis; MATH 2343 Differential Equations; MATH 3181 Junior Research Seminar"
+          - "Spring 2006: MATH 1432 Calculus II; MATH 3334 Linear Algebra; MATH 3181 Junior Research Seminar; MATH 4392 Independent Study"
+          - "Summer 2006: MATH 1431 Calculus I; MATH 4392 Independent Study"
+          - "Fall 2006: MATH 1432 Calculus II; MATH 3335 Probability; MATH 2343 Differential Equations; MATH 4331 Real Analysis; MATH 3181 Junior Research Seminar; MATH 4181 Senior Research Seminar; MATH 4392 Independent Study"
+          - "Spring 2007: MATH 2431 Calculus III; MATH 3339 Numerical Analysis; MATH 2338 Introduction to Technical Computing; MATH 3181 Junior Research Seminar; MATH 4181 Senior Research Seminar"
+
+      - name: "Courses Developed (University of St. Thomas)"
+        highlights:
+          - "MATH 3181 / MATH 4181 Junior/Senior Research Seminar"
+          - "MATH 2338 Introduction to Technical Computing"
+
+
+    research:
+      - name: "Undergraduate Research Projects Directed — Fall 2006"
+        highlights:
+          - "Michael Deeb — The Mathematics Behind Basketball"
+          - "Ashley Gibbs — Mathematics of Stringed Instruments"
+          - "David Gutierrez — Mathematics in Predicting Human Strength Performance"
+          - "Kulvir Kaur — Teaching Mathematics in Grades 8–12"
+          - "Hai Le — Mathematics of Digital Photography"
+          - "Michael Nguyen — P vs. NP"
+          - "Claudia Oramas — Stabilization of Structures"
+          - "Linh Tran — Mathematics and Pool"
+          - "Mary Tapado — The Golden Mean"
+
+      - name: "Undergraduate Research Projects Directed — Spring 2006"
+        highlights:
+          - "Giselle Ramos-Bryan — Pascal’s Triangle"
+          - "Moses Khan — Relevance of Mathematics in Our Daily Lives"
+          - "Ashley Gibbs — Bezier Curves"
+          - "Michael Nguyen — Cryptology"
+          - "Janie Garcia — Tomography and Medical Imaging"
+          - "Randhi Panapitiya — Mathematics of Traffic Flow"
+          - "Robin Stone — Chaos, Fractals, and Perlin Noise"
+          - "Mary Tapado — Wallpaper Patterns"
+
+      - name: "Undergraduate Research Projects Directed — Fall 2005"
+        highlights:
+          - "Janie Garcia — Galileo Galilei"
+          - "Moses Khan — Pythagoras"
+          - "Dominic Novak — Algorithmic Composition"
+          - "Giselle Ramos-Bryan — Mathematics in Art"
+          - "Robin Stone — Teaching Mathematics"
+
+      - name: "University of St. Thomas Research Symposium"
+        highlights:
+          - "2006 — Ashley Gibbs: Bezier Curves in Application"
+          - "2006 — Christopher LaVallee: Mathematics in the Design of a Longbow"
+
+
+    professional_references:
+        - Available upon request.
+#       - name: "Richard Carter, Ph.D."
+#         highlights:
+#           - "Company: DNV"
+#           - "Title: Principal Engineer"
+#           - "Phone: +1 832 867 5628"
+#           - "Relation: Direct manager (Advanced Analytics)"
+#   
+#       - name: "Andrew Daniels, Ph.D."
+#         highlights:
+#           - "Company: DNV"
+#           - "Title: Software Development Scientist"
+#           - "Phone: +1 717 724 2951"
+#           - "Relation: Head of Section (Advanced Analytics)"
+#   
+#       - name: "Donal Jones"
+#         highlights:
+#           - "Company: DNV"
+#           - "Title: Technical Support Analyst, Pipeline Ecosystem"
+#           - "Phone: +1 713 366 2569"
+#           - "Relation: Coworker"
+#   
+#       - name: "Christina Kerr"
+#         highlights:
+#           - "Company: DNV"
+#           - "Title: Lead Test Automation Engineer"
+#           - "Phone: +1 281 684 1169"
+#           - "Relation: Coworker"
+#
