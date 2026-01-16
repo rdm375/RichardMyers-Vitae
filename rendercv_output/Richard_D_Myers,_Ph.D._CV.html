@@ -77,30 +77,22 @@
         <li>Graduated Magna Cum Laude</li>
         </ul>
         <h1>Professional Experience</h1>
-        <h2><strong>Teaching Assistant</strong>, University of Houston–University Park -- Houston, TX</h2>
-        <p>Aug 2003 – Aug 2005</p>
+        <h2><strong>Software Devlopment Scientist</strong>, DNV -- Katy, TX</h2>
+        <p>Sept 2007 – Mar 2025</p>
         <ul>
-        <li>
-        <p>Responsible for Calculus labs;</p>
-        </li>
-        <li>
-        <p>provided one-on-one student assistance;</p>
-        </li>
-        <li>
-        <p>graded exams/assignments and recorded grades.</p>
-        </li>
+        <li>Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms including <strong>SPS, Attune, GTO, and TSM</strong>.</li>
         </ul>
-        <h2><strong>Graduate Research Assistant</strong>, University of Houston–University Park -- Houston, TX</h2>
-        <p>June 2000 – Aug 2005</p>
+        <h2><strong>Director of Computing Facilities for the Mathematics Department</strong>, University of St Thomas -- Houston, TX</h2>
+        <p>Sept 2006 – Aug 2007</p>
         <ul>
         <li>
-        <p>Developed numerical algorithms for simulating advection-diffusion-reaction equations arising in atmospheric chemistry and transport modeling;</p>
+        <p>Built and maintained a departmental Beowulf cluster;</p>
         </li>
         <li>
-        <p>implemented and tested algorithms in NCAR's MM5 numerical weather prediction model;</p>
+        <p>installed and configured operating systems and software on departmental computers and students' personal laptops;</p>
         </li>
         <li>
-        <p>performed code validation, verification, and performance analysis on high-performance computing platforms.</p>
+        <p>designed a Linux-based computer lab.</p>
         </li>
         </ul>
         <h2><strong>Visiting Assistant Professor of Mathematics</strong>, University of St Thomas -- Houston,TX</h2>
@@ -122,106 +114,134 @@
         <p>development of a computer science minor.</p>
         </li>
         </ul>
-        <h2><strong>Director of Computing Facilities for the Mathematics Department</strong>, University of St Thomas -- Houston, TX</h2>
-        <p>Sept 2006 – Aug 2007</p>
+        <h2><strong>Teaching Assistant</strong>, University of Houston–University Park -- Houston, TX</h2>
+        <p>Aug 2003 – Aug 2005</p>
         <ul>
         <li>
-        <p>Built and maintained a departmental Beowulf cluster;</p>
+        <p>Responsible for Calculus labs;</p>
         </li>
         <li>
-        <p>installed and configured operating systems and software on departmental computers and students' personal laptops;</p>
+        <p>provided one-on-one student assistance;</p>
         </li>
         <li>
-        <p>designed a Linux-based computer lab.</p>
+        <p>graded exams/assignments and recorded grades.</p>
         </li>
         </ul>
-        <h2><strong>Software Devlopment Scientist</strong>, DNV -- Katy, TX</h2>
-        <p>Sept 2007 – Mar 2025</p>
+        <h2><strong>Graduate Research Assistant</strong>, University of Houston–University Park -- Houston, TX</h2>
+        <p>June 2000 – Aug 2003</p>
         <ul>
-        <li>Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms including <strong>SPS, Attune, GTO, and TSM</strong>.</li>
+        <li>
+        <p>Developed numerical algorithms for simulating advection-diffusion-reaction equations arising in atmospheric chemistry and transport modeling;</p>
+        </li>
+        <li>
+        <p>implemented and tested algorithms in NCAR's MM5 numerical weather prediction model;</p>
+        </li>
+        <li>
+        <p>performed code validation, verification, and performance analysis on high-performance computing platforms.</p>
+        </li>
         </ul>
         <h1>Selected Projects</h1>
-        <h2><strong>Adjoint Sensitivities &amp; Gradient-Based Optimization</strong></h2>
-        <p>2017</p>
+        <h2><strong>Pipeline model conversion between SPS, Attune/GTO/TSM and LANL GasModels.jl</strong></h2>
+        <p>2024</p>
+        <p>Simulator and Optimizer Interoperability</p>
+        <ul>
+        <li>
+        <p>Began initial work on a Python based tool to convert pipeline models between DNV's Synergi Pipeline Simulator (SPS), Attune/GTO/TSM, and LANL's GasModels.jl.</p>
+        </li>
+        <li>
+        <p>The idea is to use GasModels.jl to jump start State Finding and Transient Optimization for Attune and GTO.</p>
+        </li>
+        <li>
+        <p>Researched the model formats for SPS, Attune/GTO/TSM, and GasModels.jl to understand their differences and similarities.</p>
+        </li>
+        <li>
+        <p>Implemented initial code to read/write pipeline models for SPS models, Attune/GTO/TSM, and GasModels.jl.</p>
+        </li>
+        </ul>
+        <h2><strong>Investigate merging Attune/GTO/TSM Themal Shell Calculations into Synergi Gas Slow Transients Engine</strong></h2>
+        <p>2023</p>
+        <p>Research &amp; Development</p>
+        <ul>
+        <li>
+        <p>Researched the integration of Attune/GTO/TSM thermal shell calculations into Slow Transients Engine.</p>
+        </li>
+        <li>
+        <p>Analyzed existing thermal shell implementations in Attune, GTO, and TSM to understand their methodologies and assumptions.</p>
+        </li>
+        <li>
+        <p>Code spelunked finding where to insert the calulations.</p>
+        </li>
+        <li>
+        <p>Found that manual Fortran memory management in Slow Transients Engine made integration challenging.</p>
+        </li>
+        <li>
+        <p>The full thermal calculations in Attune/GTO/TSM were tightly integrated to the hydraulic calculations, so using the thermal calculations required replacing the pipe hydraulics in the slow transients engine.</p>
+        </li>
+        </ul>
+        <h2><strong>Column Separation Estimation</strong></h2>
+        <p>2022</p>
         <p>Advanced Numerical Methods</p>
         <ul>
         <li>
-        <p>Designed and implemented adjoint sensitivity analysis for large nonlinear systems arising in pipeline simulation.</p>
+        <p>Developed/Reversed engineered a novel algorithm for estimating fluid properties from column separation data in gas pipeline simulations.</p>
         </li>
         <li>
-        <p>Derived continuous and discrete adjoint formulations for box-scheme-based transient solvers.</p>
+        <p>Implemented and validated the algorithm using real-world data.</p>
         </li>
         <li>
-        <p>Demonstrated computational advantages of adjoint methods when the number of outputs is small relative to parameter count.</p>
+        <p>The real-time algorithm would process pressure data obtained during shut-in conditions and would estimate fluid vapor pressure, vapor volume, and time of column separation.</p>
         </li>
         <li>
-        <p>Validated adjoint implementations using inner-product tests and finite-difference comparisons.</p>
+        <p>The algorithm thersholds divided difference derivatives to estimate local geometry of the shut-in region of the pressure data series.</p>
         </li>
         <li>
-        <p>Integrated adjoint methods into Attune / TSM / GTO optimization workflows, enabling efficient gradient-based calibration.</p>
-        </li>
-        </ul>
-        <h2><strong>Legacy Code Modernization: FORTRAN to C++</strong></h2>
-        <p>2015</p>
-        <p>High-Performance Scientific Computing</p>
-        <ul>
-        <li>
-        <p>Led automated conversion of legacy FORTRAN simulation code to modern C++ using the FABLE toolchain.</p>
-        </li>
-        <li>
-        <p>Diagnosed extreme initial performance regressions (~10⁵× slower) and systematically optimized generated code.</p>
-        </li>
-        <li>
-        <p>Eliminated unnecessary runtime memory allocation by replacing emulated common blocks with namespace-scoped static variables.</p>
-        </li>
-        <li>
-        <p>Applied profiling-driven optimizations (VTune), improving memory locality and numeric efficiency.</p>
-        </li>
-        <li>
-        <p>Reduced performance gap to ~10× or better, restoring feasibility for production use.</p>
-        </li>
-        <li>
-        <p>Identified remaining challenges (row-major vs column-major ordering) and proposed generator-level improvements.</p>
+        <p>This thresholding algorithm can be generalized with quadratures to estimate the data series geometry further.</p>
         </li>
         </ul>
-        <h2><strong>Method of Characteristics (MOC)</strong></h2>
-        <p>2018</p>
-        <p>Numerical Metods Review</p>
+        <h2><strong>Python Integration &amp; Debugging for SPS</strong></h2>
+        <p>2022</p>
+        <p>Developer Enablement &amp; Training</p>
         <ul>
         <li>
-        <p>Presented Method of Characteristics (MOC) formulation for transient gas pipeline hydraulics.</p>
+        <p>Developed and delivered training on debugging Python scripts integrated with SPS, covering both API-driven and embedded execution.</p>
         </li>
         <li>
-        <p>Reviewed thermodynamic assumptions related to compressibility, speed of sound, and heat transfer.</p>
+        <p>Demonstrated live attachment to SPS runtime processes for breakpoint-based debugging and stack inspection.</p>
         </li>
         <li>
-        <p>Derived characteristic equations and Riemann invariants for isothermal and non-isothermal flow.</p>
+        <p>Standardized workflows using Visual Studio Community Edition, improving developer productivity and script reliability.</p>
         </li>
         <li>
-        <p>Compared MOC with finite-difference and box-scheme approaches in terms of stability, accuracy, and applicability.</p>
-        </li>
-        <li>
-        <p>Clarified historical trade-offs influencing solver choices in commercial simulators.</p>
+        <p>Documented challenges related to Python versioning, symbols, and enterprise deployment constraints.</p>
         </li>
         </ul>
-        <h2><strong>Attune vs StateFinder &amp; Pipeline State Estimation</strong></h2>
-        <p>2017</p>
-        <p>Analytics Evaluation and Model Diagnostics</p>
+        <h2><strong>Time-Step Doubling (TSD) &amp; Local Extrapolation for Pipeline Hydraulics</strong></h2>
+        <p>2019</p>
+        <p>Research, Development, Validation, and Production Deployment</p>
         <ul>
         <li>
-        <p>Compared Attune (time-window constrained optimization) and StateFinder (single-state least-squares estimation) methodologies.</p>
+        <p>Researched, implemented, and productionized Time-Step Doubling (TSD) and Step Doubling with Local Extrapolation (SDoLE / ASDoLE) as stable, second-order time integration methods for transient pipeline hydraulics.</p>
         </li>
         <li>
-        <p>Designed realistic SCADA-driven test cases to evaluate pressure and velocity reconstruction accuracy.</p>
+        <p>Derived and analyzed linear stability regions, amplification factors, and order-of-accuracy properties, comparing explicit, implicit, Crank–Nicolson, θ-method, and TSD schemes.</p>
         </li>
         <li>
-        <p>Identified observability limits, data requirements, and workflow mismatches between analytics tools.</p>
+        <p>Demonstrated that TSD provides second-order accuracy with built-in error estimation, eliminating numerical oscillations during rapid boundary condition changes.</p>
         </li>
         <li>
-        <p>Evaluated slackline flow implementations, reverse-engineering legacy algorithms and documenting assumptions.</p>
+        <p>Implemented TSD for isothermal gas flow PDEs using box-scheme discretization and Newton linearization.</p>
         </li>
         <li>
-        <p>Provided recommendations for algorithm modernization and solver upgrades.</p>
+        <p>Validated methods using single-pipe, multi-pipe, and gun-barrel compressor models, benchmarking against highly resolved reference solutions.</p>
+        </li>
+        <li>
+        <p>Conducted extensive runtime performance studies, showing TSD can be up to 6× faster than the θ-method in favorable regimes, while identifying cases where fallback is required.</p>
+        </li>
+        <li>
+        <p>Integrated TSD into Synergi Pipeline Simulator (SPS), including runtime enable/disable logic and automatic fallback to θ-method under challenging hydraulic conditions.</p>
+        </li>
+        <li>
+        <p>Authored and delivered reviewed internal seminars, ISS virtual seminars, and PSIG conference presentations, translating numerical analysis into practical operational guidance.</p>
         </li>
         </ul>
         <h2><strong>Transient Isothermal Pipe Flow Modeling</strong></h2>
@@ -293,6 +313,89 @@
         <p>Compared ANN interpolation against classical polynomial and spline methods for robustness and numerical stability.</p>
         </li>
         </ul>
+        <h2><strong>Method of Characteristics (MOC)</strong></h2>
+        <p>2018</p>
+        <p>Numerical Metods Review</p>
+        <ul>
+        <li>
+        <p>Presented Method of Characteristics (MOC) formulation for transient gas pipeline hydraulics.</p>
+        </li>
+        <li>
+        <p>Reviewed thermodynamic assumptions related to compressibility, speed of sound, and heat transfer.</p>
+        </li>
+        <li>
+        <p>Derived characteristic equations and Riemann invariants for isothermal and non-isothermal flow.</p>
+        </li>
+        <li>
+        <p>Compared MOC with finite-difference and box-scheme approaches in terms of stability, accuracy, and applicability.</p>
+        </li>
+        <li>
+        <p>Clarified historical trade-offs influencing solver choices in commercial simulators.</p>
+        </li>
+        </ul>
+        <h2><strong>Attune vs StateFinder &amp; Pipeline State Estimation</strong></h2>
+        <p>2017</p>
+        <p>Analytics Evaluation and Model Diagnostics</p>
+        <ul>
+        <li>
+        <p>Compared Attune (time-window constrained optimization) and StateFinder (single-state least-squares estimation) methodologies.</p>
+        </li>
+        <li>
+        <p>Designed realistic SCADA-driven test cases to evaluate pressure and velocity reconstruction accuracy.</p>
+        </li>
+        <li>
+        <p>Identified observability limits, data requirements, and workflow mismatches between analytics tools.</p>
+        </li>
+        <li>
+        <p>Evaluated slackline flow implementations, reverse-engineering legacy algorithms and documenting assumptions.</p>
+        </li>
+        <li>
+        <p>Provided recommendations for algorithm modernization and solver upgrades.</p>
+        </li>
+        </ul>
+        <h2><strong>Adjoint Sensitivities &amp; Gradient-Based Optimization</strong></h2>
+        <p>2017</p>
+        <p>Advanced Numerical Methods</p>
+        <ul>
+        <li>
+        <p>Designed and implemented adjoint sensitivity analysis for large nonlinear systems arising in pipeline simulation.</p>
+        </li>
+        <li>
+        <p>Derived continuous and discrete adjoint formulations for box-scheme-based transient solvers.</p>
+        </li>
+        <li>
+        <p>Demonstrated computational advantages of adjoint methods when the number of outputs is small relative to parameter count.</p>
+        </li>
+        <li>
+        <p>Validated adjoint implementations using inner-product tests and finite-difference comparisons.</p>
+        </li>
+        <li>
+        <p>Integrated adjoint methods into Attune / TSM / GTO optimization workflows, enabling efficient gradient-based calibration.</p>
+        </li>
+        </ul>
+        <h2><strong>Legacy Code Modernization: FORTRAN to C++</strong></h2>
+        <p>2015</p>
+        <p>High-Performance Scientific Computing</p>
+        <ul>
+        <li>
+        <p>Led automated conversion of legacy FORTRAN simulation code to modern C++ using the FABLE toolchain.</p>
+        </li>
+        <li>
+        <p>Diagnosed extreme initial performance regressions (~10⁵× slower) and systematically optimized generated code.</p>
+        </li>
+        <li>
+        <p>Eliminated unnecessary runtime memory allocation by replacing emulated common blocks with namespace-scoped static variables.</p>
+        </li>
+        <li>
+        <p>Applied profiling-driven optimizations (VTune), improving memory locality and numeric efficiency.</p>
+        </li>
+        <li>
+        <p>Reduced performance gap to ~10× or better, restoring feasibility for production use.</p>
+        </li>
+        <li>
+        <p>Identified remaining challenges (row-major vs column-major ordering) and proposed generator-level improvements.</p>
+        </li>
+        </ul>
         <h2><strong>Signal Processing &amp; Imaging Techniques</strong></h2>
         <p>2014</p>
         <p>Exploratory Research</p>
@@ -308,52 +411,6 @@
         </li>
         <li>
         <p>Analyzed spatial derivative operators (e.g., Sobel filters) and frequency-domain trade-offs for noise suppression.</p>
-        </li>
-        </ul>
-        <h2><strong>Time-Step Doubling (TSD) &amp; Local Extrapolation for Pipeline Hydraulics</strong></h2>
-        <p>2019</p>
-        <p>Research, Development, Validation, and Production Deployment</p>
-        <ul>
-        <li>
-        <p>Researched, implemented, and productionized Time-Step Doubling (TSD) and Step Doubling with Local Extrapolation (SDoLE / ASDoLE) as stable, second-order time integration methods for transient pipeline hydraulics.</p>
-        </li>
-        <li>
-        <p>Derived and analyzed linear stability regions, amplification factors, and order-of-accuracy properties, comparing explicit, implicit, Crank–Nicolson, θ-method, and TSD schemes.</p>
-        </li>
-        <li>
-        <p>Demonstrated that TSD provides second-order accuracy with built-in error estimation, eliminating numerical oscillations during rapid boundary condition changes.</p>
-        </li>
-        <li>
-        <p>Implemented TSD for isothermal gas flow PDEs using box-scheme discretization and Newton linearization.</p>
-        </li>
-        <li>
-        <p>Validated methods using single-pipe, multi-pipe, and gun-barrel compressor models, benchmarking against highly resolved reference solutions.</p>
-        </li>
-        <li>
-        <p>Conducted extensive runtime performance studies, showing TSD can be up to 6× faster than the θ-method in favorable regimes, while identifying cases where fallback is required.</p>
-        </li>
-        <li>
-        <p>Integrated TSD into Synergi Pipeline Simulator (SPS), including runtime enable/disable logic and automatic fallback to θ-method under challenging hydraulic conditions.</p>
-        </li>
-        <li>
-        <p>Authored and delivered reviewed internal seminars, ISS virtual seminars, and PSIG conference presentations, translating numerical analysis into practical operational guidance.</p>
-        </li>
-        </ul>
-        <h2><strong>Python Integration &amp; Debugging for SPS</strong></h2>
-        <p>2022</p>
-        <p>Developer Enablement &amp; Training</p>
-        <ul>
-        <li>
-        <p>Developed and delivered training on debugging Python scripts integrated with SPS, covering both API-driven and embedded execution.</p>
-        </li>
-        <li>
-        <p>Demonstrated live attachment to SPS runtime processes for breakpoint-based debugging and stack inspection.</p>
-        </li>
-        <li>
-        <p>Standardized workflows using Visual Studio Community Edition, improving developer productivity and script reliability.</p>
-        </li>
-        <li>
-        <p>Documented challenges related to Python versioning, symbols, and enterprise deployment constraints.</p>
         </li>
         </ul>
         <h2><strong>Technical Leadership &amp; Knowledge Sharing</strong></h2>
@@ -431,7 +488,7 @@
         <h1>Additional Training</h1>
         <p>Python Boot Camp, Jan. 2007. Covered using Python programming language in a scientific computing context.</p>
         <p>Sun Application Tuning Seminar, Mar. 2004. Focused on using Sun's application profiler to locate code bottlenecks. Bottlenecks where then optimized. MPI and OpenMP were used for writing code for various parallel computing architectures.</p>
-        <p>CompTIA A+ Certification, July 2003. Focused on building, repairing, and configuring Oses for PC's.</p>
+        <p>CompTIA A+ Certification, July 2003. Focused on building, repairing, and configuring OSes for PC's.</p>
         <p>Parallel Programming with MPI Seminar at UH, taught by Marc Garbey, Oct. 2000. Covered parallel programming on distributed memory systems using the MPI message passing interface.</p>
         <h1>Professional Profile</h1>
         <p>Combines <strong>deep mathematical rigor</strong> with <strong>production software impact</strong></p>
