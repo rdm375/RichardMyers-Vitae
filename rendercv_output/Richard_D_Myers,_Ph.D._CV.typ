@@ -136,6 +136,8 @@ Developer Tooling, Debugging, and Technical Training
   main-column-second-row: [
     - Dissertation: Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems
 
+    - Abstract:  In the context of the optimal control problems of statefinding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
+
     - Advisor: Prof. Jiwen He
 
   ],
@@ -151,6 +153,8 @@ Developer Tooling, Debugging, and Technical Training
 
   ],
   main-column-second-row: [
+    #summary[Focused on Numerical Analysis and Scientific Computing: Numerical Odes, Pdes, Linear Algebra, Optimization, and Parallel Programming.]
+
   ],
 )
 
@@ -181,7 +185,7 @@ Developer Tooling, Debugging, and Technical Training
 
   ],
   main-column-second-row: [
-    - Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms including #strong[SPS, Attune, GTO, and TSM].
+    - Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms including #strong[Synergi Gas, Stoner Pipeline Simulator(SPS), Attune, GTO, and TSM].
 
   ],
 )
@@ -257,9 +261,9 @@ Developer Tooling, Debugging, and Technical Training
 
   ],
   main-column-second-row: [
-    - Developed numerical algorithms for simulating advection-diffusion-reaction equations arising in atmospheric chemistry and transport modeling;
+    - Explored numerical algorithms for simulating advection-diffusion-reaction equations arising in atmospheric chemistry and transport modeling;
 
-    - implemented and tested algorithms in NCAR's MM5 numerical weather prediction model;
+    - Built and ran NCAR's MM5 numerical weather prediction model;
 
     - performed code validation, verification, and performance analysis on high-performance computing platforms.
 
@@ -513,7 +517,7 @@ Developer Tooling, Debugging, and Technical Training
   main-column-second-row: [
     #summary[Analytics Evaluation and Model Diagnostics]
 
-    - Compared Attune (time-window constrained optimization) and StateFinder (single-state least-squares estimation) methodologies.
+    - Compared performance of Attune (adjoint method based state finding data assimilation optimization) and StateFinder (single-state least-squares estimation) methodologies.
 
     - Designed realistic SCADA-driven test cases to evaluate pressure and velocity reconstruction accuracy.
 
@@ -538,7 +542,7 @@ Developer Tooling, Debugging, and Technical Training
   main-column-second-row: [
     #summary[Advanced Numerical Methods]
 
-    - Designed and implemented adjoint sensitivity analysis for large nonlinear systems arising in pipeline simulation.
+    - Worked with and debugged(!) adjoint sensitivity analysis for large nonlinear systems arising in pipeline simulation.
 
     - Derived continuous and discrete adjoint formulations for box-scheme-based transient solvers.
 
@@ -546,7 +550,7 @@ Developer Tooling, Debugging, and Technical Training
 
     - Validated adjoint implementations using inner-product tests and finite-difference comparisons.
 
-    - Integrated adjoint methods into Attune \/ TSM \/ GTO optimization workflows, enabling efficient gradient-based calibration.
+    - Responsible for care and feeding of adjoint methods into Attune \/ TSM \/ GTO optimization workflows, enabling efficient gradient-based calibration.
 
   ],
 )
@@ -563,7 +567,7 @@ Developer Tooling, Debugging, and Technical Training
   main-column-second-row: [
     #summary[High-Performance Scientific Computing]
 
-    - Led automated conversion of legacy FORTRAN simulation code to modern C++ using the FABLE toolchain.
+    - Investigated automated conversion of legacy FORTRAN simulation code to modern C++ using FABLE.
 
     - Diagnosed extreme initial performance regressions (\~10⁵× slower) and systematically optimized generated code.
 
@@ -592,7 +596,7 @@ Developer Tooling, Debugging, and Technical Training
 
     - Applied wavelet-based signal denoising techniques to noisy engineering and SCADA data.
 
-    - Compared wavelet filtering with traditional smoothing methods for transient preservation.
+    - Compared wavelet filtering and Empirical Mode Decomposition (EMD) with traditional smoothing methods for transient preservation.
 
     - Investigated Eulerian Video Magnification (EVM) to amplify subtle temporal variations in video data.
 
@@ -611,7 +615,7 @@ Developer Tooling, Debugging, and Technical Training
   main-column-second-row: [
     - Delivered recurring research reviews and innovation updates, synthesizing numerical, algorithmic, and performance findings.
 
-    - Helped launch and support an internal Simulation Software Seminar Series focused on hands-on technical learning.
+    - Participated in several internal Simulation Software Seminar Series focused on hands-on technical learning.
 
     - Communicated complex mathematical concepts clearly to cross-disciplinary engineering audiences.
 

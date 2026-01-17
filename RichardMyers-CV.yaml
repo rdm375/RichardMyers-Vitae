@@ -38,6 +38,7 @@ cv:
         summary:
         highlights:
           - 'Dissertation: Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems'
+          - 'Abstract:  In the context of the optimal control problems of statefinding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.'
           - 'Advisor: Prof. Jiwen He'
       - institution: 'University of Houston–University Park'
         area: Applied Mathematics
@@ -46,7 +47,7 @@ cv:
         start_date: 2000-09
         end_date: 2002-05
         location: Houston, TX
-        summary:
+        summary: 'Focused on Numerical Analysis and Scientific Computing: Numerical Odes, Pdes, Linear Algebra, Optimization, and Parallel Programming.'
         highlights:
       - institution: 'University of Houston–University Park'
         area: Mathematics
@@ -67,7 +68,7 @@ cv:
         location: Katy, TX
         summary:
         highlights:
-          - Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms including **SPS, Attune, GTO, and TSM**.
+          - Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms including **Synergi Gas, Stoner Pipeline Simulator(SPS), Attune, GTO, and TSM**.
       - company: University of St Thomas
         position: Director of Computing Facilities for the Mathematics Department
         date:
@@ -114,8 +115,8 @@ cv:
         location: Houston, TX
         summary:
         highlights:
-          - Developed numerical algorithms for simulating advection-diffusion-reaction equations arising in atmospheric chemistry and transport modeling;
-          - implemented and tested algorithms in NCAR's MM5 numerical weather prediction model;
+          - Explored numerical algorithms for simulating advection-diffusion-reaction equations arising in atmospheric chemistry and transport modeling;
+          - Built and ran NCAR's MM5 numerical weather prediction model;
           - performed code validation, verification, and performance analysis on high-performance computing platforms.
 
     Selected Projects:
@@ -208,7 +209,7 @@ cv:
         date: 2017
         summary: Analytics Evaluation and Model Diagnostics
         highlights:
-          - Compared Attune (time-window constrained optimization) and StateFinder (single-state least-squares estimation) methodologies.
+          - Compared performance of Attune (adjoint method based state finding data assimilation optimization) and StateFinder (single-state least-squares estimation) methodologies.
           - Designed realistic SCADA-driven test cases to evaluate pressure and velocity reconstruction accuracy.
           - Identified observability limits, data requirements, and workflow mismatches between analytics tools.
           - Evaluated slackline flow implementations, reverse-engineering legacy algorithms and documenting assumptions.
@@ -217,16 +218,16 @@ cv:
         date: 2017
         summary: Advanced Numerical Methods
         highlights:
-          - Designed and implemented adjoint sensitivity analysis for large nonlinear systems arising in pipeline simulation.
+          - Worked with and debugged(!) adjoint sensitivity analysis for large nonlinear systems arising in pipeline simulation.
           - Derived continuous and discrete adjoint formulations for box-scheme-based transient solvers.
           - Demonstrated computational advantages of adjoint methods when the number of outputs is small relative to parameter count.
           - Validated adjoint implementations using inner-product tests and finite-difference comparisons.
-          - Integrated adjoint methods into Attune / TSM / GTO optimization workflows, enabling efficient gradient-based calibration.
+          - Responsible for care and feeding of adjoint methods into Attune / TSM / GTO optimization workflows, enabling efficient gradient-based calibration.
       - name: 'Legacy Code Modernization: FORTRAN to C++'
         date: 2015
         summary: High-Performance Scientific Computing
         highlights:
-          - Led automated conversion of legacy FORTRAN simulation code to modern C++ using the FABLE toolchain.
+          - Investigated automated conversion of legacy FORTRAN simulation code to modern C++ using FABLE.
           - Diagnosed extreme initial performance regressions (~10⁵× slower) and systematically optimized generated code.
           - Eliminated unnecessary runtime memory allocation by replacing emulated common blocks with namespace-scoped static variables.
           - Applied profiling-driven optimizations (VTune), improving memory locality and numeric efficiency.
@@ -237,7 +238,7 @@ cv:
         summary: Exploratory Research
         highlights:
           - Applied wavelet-based signal denoising techniques to noisy engineering and SCADA data.
-          - Compared wavelet filtering with traditional smoothing methods for transient preservation.
+          - Compared wavelet filtering and Empirical Mode Decomposition (EMD) with traditional smoothing methods for transient preservation.
           - Investigated Eulerian Video Magnification (EVM) to amplify subtle temporal variations in video data.
           - Analyzed spatial derivative operators (e.g., Sobel filters) and frequency-domain trade-offs for noise suppression.
       - name: Technical Leadership & Knowledge Sharing
@@ -245,7 +246,7 @@ cv:
         summary:   
         highlights:
           - Delivered recurring research reviews and innovation updates, synthesizing numerical, algorithmic, and performance findings.
-          - Helped launch and support an internal Simulation Software Seminar Series focused on hands-on technical learning.
+          - Participated in several internal Simulation Software Seminar Series focused on hands-on technical learning.
           - Communicated complex mathematical concepts clearly to cross-disciplinary engineering audiences.
           - Served as a technical bridge between research, product development, and customer-facing teams.
 
