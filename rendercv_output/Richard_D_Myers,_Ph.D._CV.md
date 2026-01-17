@@ -36,7 +36,7 @@ Developer Tooling, Debugging, and Technical Training
 # Education
 ## **University of Houston–University Park**, PhD in Mathematics -- Houston, TXSept 2003 – Aug 2005
 
-- Dissertation: Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems
+- Dissertation: *Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems*
 
 - Abstract:  In the context of the optimal control problems of statefinding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
 
@@ -373,7 +373,7 @@ Exploratory Research
 
 
 # Publications
-## **Step Doubling for Pipeline Flow**
+## ***Step Doubling for Pipeline Flow***
 
 May 2019
 

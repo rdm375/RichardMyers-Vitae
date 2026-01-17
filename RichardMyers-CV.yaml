@@ -37,7 +37,7 @@ cv:
         location: Houston, TX
         summary:
         highlights:
-          - 'Dissertation: Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems'
+          - 'Dissertation: *Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems*'
           - 'Abstract:  In the context of the optimal control problems of statefinding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.'
           - 'Advisor: Prof. Jiwen He'
       - institution: 'University of Houston–University Park'
@@ -251,7 +251,7 @@ cv:
           - Served as a technical bridge between research, product development, and customer-facing teams.
 
     publications:
-      - title: 'Step Doubling for Pipeline Flow'
+      - title: '*Step Doubling for Pipeline Flow*'
         authors:
           - Todd F Dupont
           - Richard D Myers
@@ -328,13 +328,7 @@ cv:
       - Operates effectively across **research, architecture, and implementation**
       - Strong communicator of complex technical concepts to both expert and non-expert audiences
       - Proven record of **long-horizon technical ownership** and sustained innovation
-#
-#    any_section_title:
-#      - You can use any section title you want.
-#      - 'You can choose any entry type for the section: `TextEntry`, `ExperienceEntry`, `EducationEntry`, `PublicationEntry`, `BulletEntry`, `NumberedEntry`, or `ReversedNumberedEntry`.'
-#      - Markdown syntax is supported everywhere.
-#      - The `design` field in YAML gives you control over almost any aspect of your CV design.
-#      - See the [documentation](https://docs.rendercv.com) for more details.
+
 design:
   theme: moderncv
   # page:

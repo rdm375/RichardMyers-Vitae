@@ -134,7 +134,7 @@ Developer Tooling, Debugging, and Technical Training
 
   ],
   main-column-second-row: [
-    - Dissertation: Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems
+    - Dissertation: #emph[Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems]
 
     - Abstract:  In the context of the optimal control problems of statefinding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
 
@@ -628,7 +628,7 @@ Developer Tooling, Debugging, and Technical Training
 
 #regular-entry(
   [
-    #strong[Step Doubling for Pipeline Flow]
+    #strong[#emph[Step Doubling for Pipeline Flow]]
 
   ],
   [
