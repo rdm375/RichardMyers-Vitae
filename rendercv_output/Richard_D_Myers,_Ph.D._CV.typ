@@ -679,71 +679,69 @@ Introduction to Technical Computing, MATH 2338, University of St. Thomas
 
 == Undergraduate Research Projects Directed
 
-Michael Deeb - The Mathematics Behind Basket Ball, Fall 2006
+Michael Deeb - #emph[The Mathematics Behind Basket Ball], Fall 2006
 
-Ashley Gibbs - Mathematics of Stringed Instruments, Fall 2006
+Ashley Gibbs - #emph[Mathematics of Stringed Instruments], Fall 2006
 
-David Gutierrez - The Use of Mathematics in Predicting Human Strength Performance, Fall 2006
+David Gutierrez - #sym.ast.basic#h(0pt, weak: true) The Use of Mathematics in Predicting Human Strength Performance, Fall 2006
 
-Kulvir Kaur - The Techniques of Teaching Mathematics in Grades 8-12, Fall 2006
+Kulvir Kaur - #emph[The Techniques of Teaching Mathematics in Grades 8-12], Fall 2006
 
-Hai Le - The Mathematics of Digital Photography, Fall 2006
+Hai Le - #emph[The Mathematics of Digital Photography], Fall 2006
 
-Michael Nguyen - P vs. NP, Fall 2006
+Michael Nguyen - #emph[P vs. NP], Fall 2006
 
-Claudia Oramas - Stabilization of Structures, Fall 2006
+Claudia Oramas - #emph[Stabilization of Structures], Fall 2006
 
-Linh Tran - Mathematics and Pool, Fall 2006
+Linh Tran - #emph[Mathematics and Pool], Fall 2006
 
-Mary Tapado - The Golden Mean, Fall 2006
+Mary Tapado - #sym.ast.basic#h(0pt, weak: true) The Golden Mean, Fall 2006
 
-Giselle Ramos-Bryan - Pascall’s Triangle, Spring 2006
+Giselle Ramos-Bryan - #emph[Pascall’s Triangle], Spring 2006
 
-Moses Khan - The Relevance of Mathematics in Our Daily Lives, Spring 2006
+Moses Khan - #emph[The Relevance of Mathematics in Our Daily Lives], Spring 2006
 
-Ashley Gibbs - Bezier Curves, Spring 2006
+Ashley Gibbs - #emph[Bezier Curves], Spring 2006
 
-Michael Nguyen - Cryptology: The Study of Cryptography and Cryptanalysis, Spring 2006
+Michael Nguyen - #emph[Cryptology: The Study of Cryptography and Cryptanalysis], Spring 2006
 
-Janie Garcia - Tomography: A mathematical Background for Medicine’s Image Machine, Spring 2006
+Janie Garcia - #emph[Tomography: A mathematical Background for Medicine’s Image Machine], Spring 2006
 
-Randhi Panapitiya - Mathematical Relationships with Traffic Flow, Spring 2006
+Randhi Panapitiya - #emph[Mathematical Relationships with Traffic Flow], Spring 2006
 
-Robin Stone - Chaos, Fractals, and Perlin Noise in the Generation of Virtual Landscapes, Spring 2006
+Robin Stone - #emph[Chaos, Fractals, and Perlin Noise in the Generation of Virtual Landscapes], Spring 2006
 
-Mary Tapado - Wallpaper Patterns, Spring 2006
+Mary Tapado - #emph[Wallpaper Patterns], Spring 2006
 
-Janie Garcia - Galileo Galilei: His Life, His Work, Fall 2005
+Janie Garcia - #sym.ast.basic#h(0pt, weak: true) Galileo Galilei: His Life, His Work, Fall 2005
 
-Moses Khan - The Life and Philosophy of Pythagoras, Fall 2005
+Moses Khan - #emph[The Life and Philosophy of Pythagoras], Fall 2005
 
-Dominic Novak - Algorithmic Composition: How can math be used in the composition of music?, Fall 2005
+Dominic Novak - #emph[Algorithmic Composition: How can math be used in the composition of music?], Fall 2005
 
-Giselle Ramos-Bryan - Math in Art: Prospective Geometry, Fall 2005
+Giselle Ramos-Bryan - #emph[Math in Art: Prospective Geometry], Fall 2005
 
-Robin Stone - Unlocking Young Minds: Methods of Teaching Mathematics, Fall 2005
+Robin Stone - #emph[Unlocking Young Minds: Methods of Teaching Mathematics], Fall 2005
 
 == The University of St. Thomas Research Symposium
 
-Ashley Gibbs - Bezier Curves in Application, Spring 2006
+Ashley Gibbs - #emph[Bezier Curves in Application], Spring 2006
 
-Christopher LaVallee - The Use of Mathematics in the Design of a Long-Bow, Spring 2006
+Christopher LaVallee - #emph[The Use of Mathematics in the Design of a Long-Bow], Spring 2006
 
 == Skills
 
-#strong[Platforms:] Linux, Windows
+#strong[Platforms:] Linux, Windows, WSL
 
-#strong[Languages:] Python, FORTRAN, C\/C++, Matlab\/Octave
+#strong[Languages:] Python, FORTRAN, C++, Bash
 
 #strong[Automatic Differentiation:] Odyssee, Tapenade
 
 #strong[Parallel Programming:] MPI, OpenMP
 
-#strong[Environments:] Emacs, make, gdb, MS Visual Studio, VS Code
+#strong[Environments:] GCC, Clang, Make\/CMake,MS Visual Studio, VS Code, TFS
 
 #strong[Document Processing:] LaTeX, Markdown, HTML
-
-#strong[CAS:] Maple, Mathematica
 
 #strong[Research Areas:] Numerical Analysis, Scientific Computing, Signal Processing, Machine Learning
 
@@ -751,7 +749,7 @@ Christopher LaVallee - The Use of Mathematics in the Design of a Long-Bow, Sprin
 
 Python Boot Camp, Jan. 2007. Covered using Python programming language in a scientific computing context.
 
-Sun Application Tuning Seminar, Mar. 2004. Focused on using Sun's application profiler to locate code bottlenecks. Bottlenecks where then optimized. MPI and OpenMP were used for writing code for various parallel computing architectures.
+Sun Application Tuning Seminar, Mar. 2004. Focused on using Sun's application profiler to locate code bottlenecks. Bottlenecks were then optimized. MPI and OpenMP were used for writing code for various parallel computing architectures.
 
 CompTIA A+ Certification, July 2003. Focused on building, repairing, and configuring OSes for PC's.
 
