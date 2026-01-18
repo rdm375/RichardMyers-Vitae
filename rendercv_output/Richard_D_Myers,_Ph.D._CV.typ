@@ -136,7 +136,7 @@ Developer Tooling, Debugging, and Technical Training
   main-column-second-row: [
     - Dissertation: #emph[Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems]
 
-    - Abstract:  In the context of the optimal control problems of statefinding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
+    - Abstract:  In the context of the optimal control problems of state-finding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
 
     - Advisor: Prof. Jiwen He
 
@@ -153,7 +153,7 @@ Developer Tooling, Debugging, and Technical Training
 
   ],
   main-column-second-row: [
-    #summary[Focused on Numerical Analysis and Scientific Computing: Numerical Odes, Pdes, Linear Algebra, Optimization, and Parallel Programming.]
+    #summary[Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Linear Algebra, Optimization, and Parallel Programming.]
 
   ],
 )
@@ -177,7 +177,7 @@ Developer Tooling, Debugging, and Technical Training
 
 #regular-entry(
   [
-    #strong[Software Devlopment Scientist], DNV -- Katy, TX
+    #strong[Software Development Scientist], DNV -- Katy, TX
 
   ],
   [
@@ -297,7 +297,7 @@ Developer Tooling, Debugging, and Technical Training
 
 #regular-entry(
   [
-    #strong[Investigate merging Attune\/GTO\/TSM Themal Shell Calculations into Synergi Gas Slow Transients Engine]
+    #strong[Investigate merging Attune\/GTO\/TSM Thermal Shell Calculations into Synergi Gas Slow Transients Engine]
 
   ],
   [
@@ -311,9 +311,9 @@ Developer Tooling, Debugging, and Technical Training
 
     - Analyzed existing thermal shell implementations in Attune, GTO, and TSM to understand their methodologies and assumptions.
 
-    - Code spelunked finding where to insert the calulations.
+    - Code spelunked finding where to insert the calculations.
 
-    - Found that manual Fortran memory management in Slow Transients Engine made integration challenging.
+    - Found that manual FORTRAN memory management in Slow Transients Engine made integration challenging.
 
     - The full thermal calculations in Attune\/GTO\/TSM were tightly integrated to the hydraulic calculations, so using the thermal calculations required replacing the pipe hydraulics in the slow transients engine.
 
@@ -338,7 +338,7 @@ Developer Tooling, Debugging, and Technical Training
 
     - The real-time algorithm would process pressure data obtained during shut-in conditions and would estimate fluid vapor pressure, vapor volume, and time of column separation.
 
-    - The algorithm thersholds divided difference derivatives to estimate local geometry of the shut-in region of the pressure data series.
+    - The algorithm thresholds divided difference derivatives to estimate local geometry of the shut-in region of the pressure data series.
 
     - This thresholding algorithm can be generalized with quadratures to estimate the data series geometry further.
 
@@ -490,7 +490,7 @@ Developer Tooling, Debugging, and Technical Training
 
   ],
   main-column-second-row: [
-    #summary[Numerical Metods Review]
+    #summary[Numerical Methods Review]
 
     - Presented Method of Characteristics (MOC) formulation for transient gas pipeline hydraulics.
 

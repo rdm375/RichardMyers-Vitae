@@ -504,13 +504,13 @@ settings:
     dont_generate_png: false
   bold_keywords: []
 
-LocalWords:  TSD SDoLE ASDoLE θ PDE PDEs ODEs Runge Kutta Jiwen Magna
-LocalWords:  Laude DNV Synergi SPS GTO TSM NCAR's MM5 LANL GasModels
-LocalWords:  jl DNV's LANL's linearization PSIG hyperbolicity SCADA
-LocalWords:  eigenstructure codebases upwinding Galerkin ReLU PCA SVD
-LocalWords:  Thermophysical approximators MOC StateFinder slackline
-LocalWords:  namespace VTune denoising EMD Eulerian EVM Sobel Dupont
-LocalWords:  discretizing url JuniorSenior Deeb Kulvir Kaur Hai Linh
-LocalWords:  Oramas Tapado Pascall’s Bezier Randhi Panapitiya Perlin
-LocalWords:  Novak LaVallee WSL Odyssee Tapenade MPI OpenMP CMake TFS
-LocalWords:  LaTeX profiler CompTIA Garbey
+# LocalWords:  TSD SDoLE ASDoLE θ PDE PDEs ODEs Runge Kutta Jiwen Magna
+# LocalWords:  Laude DNV Synergi SPS GTO TSM NCAR's MM5 LANL GasModels
+# LocalWords:  jl DNV's LANL's linearization PSIG hyperbolicity SCADA
+# LocalWords:  eigenstructure codebases upwinding Galerkin ReLU PCA SVD
+# LocalWords:  Thermophysical approximators MOC StateFinder slackline
+# LocalWords:  namespace VTune denoising EMD Eulerian EVM Sobel Dupont
+# LocalWords:  discretizing url JuniorSenior Deeb Kulvir Kaur Hai Linh
+# LocalWords:  Oramas Tapado Pascall’s Bezier Randhi Panapitiya Perlin
+# LocalWords:  Novak LaVallee WSL Odyssee Tapenade MPI OpenMP CMake TFS
+# LocalWords:  LaTeX profiler CompTIA Garbey
