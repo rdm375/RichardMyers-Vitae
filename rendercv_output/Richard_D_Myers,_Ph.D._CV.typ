@@ -719,7 +719,7 @@ Michael Deeb - #emph[The Mathematics Behind Basket Ball], Fall 2006
 
 Ashley Gibbs - #emph[Mathematics of Stringed Instruments], Fall 2006
 
-David Gutierrez - #sym.ast.basic#h(0pt, weak: true) The Use of Mathematics in Predicting Human Strength Performance, Fall 2006
+David Gutierrez - #emph[The Use of Mathematics in Predicting Human Strength Performance], Fall 2006
 
 Kulvir Kaur - #emph[The Techniques of Teaching Mathematics in Grades 8-12], Fall 2006
 

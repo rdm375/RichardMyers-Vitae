@@ -453,7 +453,7 @@ Michael Deeb - *The Mathematics Behind Basket Ball*, Fall 2006
 
 Ashley Gibbs - *Mathematics of Stringed Instruments*, Fall 2006
 
-David Gutierrez - *The Use of Mathematics in Predicting Human Strength Performance, Fall 2006
+David Gutierrez - *The Use of Mathematics in Predicting Human Strength Performance*, Fall 2006
 
 Kulvir Kaur - *The Techniques of Teaching Mathematics in Grades 8-12*, Fall 2006
 
