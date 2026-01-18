@@ -12,15 +12,6 @@ Principal research and software engineer with deep expertise in numerical method
 
 Extensive experience bridging theory and practice: PDE modeling, stability and accuracy analysis, adjoint methods, optimization, thermal–hydraulic coupling, legacy code modernization, and developer enablement. Proven ability to translate advanced mathematics into robust, production-quality software and to communicate complex technical concepts to diverse audiences.
 
-# Professional Profile
-Combines **deep mathematical rigor** with **production software impact**
-
-Operates effectively across **research, architecture, and implementation**
-
-Strong communicator of complex technical concepts to both expert and non-expert audiences
-
-Proven record of **long-horizon technical ownership** and sustained innovation
-
 # Core Technical Expertise
 Numerical Methods for PDEs and ODEs
 
@@ -41,6 +32,15 @@ Legacy Code Modernization (FORTRAN → C++)
 Machine Learning for Scientific Interpolation
 
 Developer Tooling, Debugging, and Technical Training
+
+# Professional Profile
+Combines **deep mathematical rigor** with **production software impact**
+
+Operates effectively across **research, architecture, and implementation**
+
+**Strong communicator** of complex technical concepts to both expert and non-expert audiences
+
+Proven record of **long-horizon technical ownership** and sustained innovation
 
 # Professional Experience
 ## **Software Development Scientist**, DNV -- Katy, TX
@@ -135,6 +135,8 @@ Research & Development
 - Found that manual FORTRAN memory management in Slow Transients Engine made integration challenging.
 
 - The full thermal calculations in Attune/GTO/TSM were tightly integrated to the hydraulic calculations, so using the thermal calculations required replacing the pipe hydraulics in the slow transients engine.
+
+- Thouroughly documented everything in mathematically rigorous detail for the next person (future-me).
 
 
 
@@ -310,7 +312,7 @@ Advanced Numerical Methods
 
 
 
-## **Legacy Code Modernization: FORTRAN to C++**
+## **Legacy Code Modernization -- FORTRAN to C++**
 
 2015
 

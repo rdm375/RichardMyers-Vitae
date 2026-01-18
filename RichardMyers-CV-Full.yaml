@@ -18,12 +18,6 @@ cv:
       - Principal research and software engineer with deep expertise in numerical methods for transient pipeline flow, scientific computing, and simulation software architecture. Led multi-year research, validation, and production deployment of advanced time-integration algorithms (notably Time-Step Doubling) within large-scale commercial pipeline simulators.
       - 'Extensive experience bridging theory and practice: PDE modeling, stability and accuracy analysis, adjoint methods, optimization, thermal–hydraulic coupling, legacy code modernization, and developer enablement. Proven ability to translate advanced mathematics into robust, production-quality software and to communicate complex technical concepts to diverse audiences.'
 
-    Professional Profile:
-      - Combines **deep mathematical rigor** with **production software impact**
-      - Operates effectively across **research, architecture, and implementation**
-      - Strong communicator of complex technical concepts to both expert and non-expert audiences
-      - Proven record of **long-horizon technical ownership** and sustained innovation
-
     Core Technical Expertise:
       - Numerical Methods for PDEs and ODEs
       - Transient Pipeline Hydraulics (Isothermal & Thermal)
@@ -35,6 +29,12 @@ cv:
       - Legacy Code Modernization (FORTRAN → C++)
       - Machine Learning for Scientific Interpolation
       - Developer Tooling, Debugging, and Technical Training
+
+    Professional Profile:
+      - Combines **deep mathematical rigor** with **production software impact**
+      - Operates effectively across **research, architecture, and implementation**
+      - '**Strong communicator** of complex technical concepts to both expert and non-expert audiences'
+      - Proven record of **long-horizon technical ownership** and sustained innovation
 
     Professional Experience:
       - company: DNV
@@ -114,6 +114,7 @@ cv:
           - Code spelunked finding where to insert the calculations.
           - Found that manual FORTRAN memory management in Slow Transients Engine made integration challenging.
           - The full thermal calculations in Attune/GTO/TSM were tightly integrated to the hydraulic calculations, so using the thermal calculations required replacing the pipe hydraulics in the slow transients engine.
+          - Thouroughly documented everything in mathematically rigorous detail for the next person (future-me).
       - name: Column Separation Estimation
         date: 2022
         summary: Advanced Numerical Methods
@@ -200,7 +201,7 @@ cv:
           - Demonstrated computational advantages of adjoint methods when the number of outputs is small relative to parameter count.
           - Validated adjoint implementations using inner-product tests and finite-difference comparisons.
           - Responsible for care and feeding of adjoint methods into Attune / TSM / GTO optimization workflows, enabling efficient gradient-based calibration.
-      - name: 'Legacy Code Modernization: FORTRAN to C++'
+      - name: 'Legacy Code Modernization -- FORTRAN to C++'
         date: 2015
         summary: High-Performance Scientific Computing
         highlights:
