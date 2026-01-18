@@ -1,0 +1,501 @@
+# Richard D Myers, Ph.D.'s CV
+
+- Phone: +1 832 352 8823
+- Email: [richard.myers@proton.me](mailto:richard.myers@proton.me)
+- Location: Houston, TX
+- LinkedIn: [richard-myers-ph-d-5997b93a2](https://linkedin.com/in/richard-myers-ph-d-5997b93a2)
+- GitHub: [rdm375](https://github.com/rdm375)
+
+
+# Professional Summary
+Principal research and software engineer with deep expertise in numerical methods for transient pipeline flow, scientific computing, and simulation software architecture. Led multi-year research, validation, and production deployment of advanced time-integration algorithms (notably Time-Step Doubling) within large-scale commercial pipeline simulators.
+
+Extensive experience bridging theory and practice: PDE modeling, stability and accuracy analysis, adjoint methods, optimization, thermal–hydraulic coupling, legacy code modernization, and developer enablement. Proven ability to translate advanced mathematics into robust, production-quality software and to communicate complex technical concepts to diverse audiences.
+
+# Core Technical Expertise
+Numerical Methods for PDEs and ODEs
+
+Transient Pipeline Hydraulics (Isothermal & Thermal)
+
+Time Integration (θ-method, Step Doubling, Local Extrapolation, Method of Characteristics)
+
+Linear Stability & Order-of-Accuracy Analysis
+
+Adjoint Sensitivities & Gradient-Based Optimization
+
+State Estimation, Calibration, and Leak Detection
+
+Scientific Computing (C++, Python)
+
+Legacy Code Modernization (FORTRAN → C++)
+
+Machine Learning for Scientific Interpolation
+
+Developer Tooling, Debugging, and Technical Training
+
+# Professional Profile
+Combines **deep mathematical rigor** with **production software impact**
+
+Operates effectively across **research, architecture, and implementation**
+
+**Strong communicator** of complex technical concepts to both expert and non-expert audiences
+
+Proven record of **long-horizon technical ownership** and sustained innovation
+
+# Professional Experience
+## **Software Development Scientist**, DNV -- Katy, TX
+
+Sept 2007 – Mar 2025
+
+- Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms including **Synergi Gas, Stoner Pipeline Simulator(SPS), Attune, GTO, and TSM**.
+
+
+
+## **Director of Computing Facilities for the Mathematics Department**, University of St Thomas -- Houston, TX
+
+Sept 2006 – Aug 2007
+
+- Built and maintained a departmental Beowulf cluster;
+
+- installed and configured operating systems and software on departmental computers and students' personal laptops;
+
+- designed a Linux-based computer lab.
+
+
+
+## **Visiting Assistant Professor of Mathematics**, University of St Thomas -- Houston,TX
+
+Sept 2005 – Aug 2007
+
+- Teaching a 4/4 course load;
+
+- guiding undergraduate research;
+
+- serving on curriculum revision committee for Mathematics Department;
+
+- Served as department library liaison;
+
+- development of a computer science minor.
+
+
+
+## **Teaching Assistant**, University of Houston–University Park -- Houston, TX
+
+Aug 2003 – Aug 2005
+
+- Responsible for Calculus labs;
+
+- provided one-on-one student assistance;
+
+- graded exams/assignments and recorded grades.
+
+
+
+## **Graduate Research Assistant**, University of Houston–University Park -- Houston, TX
+
+June 2000 – Aug 2003
+
+- Explored numerical algorithms for simulating advection-diffusion-reaction equations arising in atmospheric chemistry and transport modeling;
+
+- Built and ran NCAR's MM5 numerical weather prediction model;
+
+- performed code validation, verification, and performance analysis on high-performance computing platforms.
+
+
+
+# Selected Projects
+## **Pipeline model conversion between SPS, Attune/GTO/TSM and LANL GasModels.jl**
+
+2024
+
+Simulator and Optimizer Interoperability
+
+- Began initial work on a Python based tool to convert pipeline models between DNV's Synergi Pipeline Simulator (SPS), Attune/GTO/TSM, and LANL's GasModels.jl.
+
+- The idea is to use GasModels.jl to jump start State Finding and Transient Optimization for Attune and GTO.
+
+- Researched the model formats for SPS, Attune/GTO/TSM, and GasModels.jl to understand their differences and similarities.
+
+- Implemented initial code to read/write pipeline models for SPS models, Attune/GTO/TSM, and GasModels.jl.
+
+
+
+## **Investigate merging Attune/GTO/TSM Thermal Shell Calculations into Synergi Gas Slow Transients Engine**
+
+2023
+
+Research & Development
+
+- Researched the integration of Attune/GTO/TSM thermal shell calculations into Slow Transients Engine.
+
+- Analyzed existing thermal shell implementations in Attune, GTO, and TSM to understand their methodologies and assumptions.
+
+- Code spelunked finding where to insert the calculations.
+
+- Found that manual FORTRAN memory management in Slow Transients Engine made integration challenging.
+
+- The full thermal calculations in Attune/GTO/TSM were tightly integrated to the hydraulic calculations, so using the thermal calculations required replacing the pipe hydraulics in the slow transients engine.
+
+- Thouroughly documented everything in mathematically rigorous detail for the next person (future-me).
+
+
+
+## **Column Separation Estimation**
+
+2022
+
+Advanced Numerical Methods
+
+- Developed/Reversed engineered a novel algorithm for estimating fluid properties from column separation data in gas pipeline simulations.
+
+- Implemented and validated the algorithm using real-world data.
+
+- The real-time algorithm would process pressure data obtained during shut-in conditions and would estimate fluid vapor pressure, vapor volume, and time of column separation.
+
+- The algorithm thresholds divided difference derivatives to estimate local geometry of the shut-in region of the pressure data series.
+
+- This thresholding algorithm can be generalized with quadratures to estimate the data series geometry further.
+
+
+
+## **Python Integration & Debugging for SPS**
+
+2022
+
+Developer Enablement & Training
+
+- Developed and delivered training on debugging Python scripts integrated with SPS, covering both API-driven and embedded execution.
+
+- Demonstrated live attachment to SPS runtime processes for breakpoint-based debugging and stack inspection.
+
+- Standardized workflows using Visual Studio Community Edition, improving developer productivity and script reliability.
+
+- Documented challenges related to Python versioning, symbols, and enterprise deployment constraints.
+
+
+
+## **Time-Step Doubling (TSD) & Local Extrapolation for Pipeline Hydraulics**
+
+2019
+
+Research, Development, Validation, and Production Deployment
+
+- Researched, implemented, and productionized Time-Step Doubling (TSD) and Step Doubling with Local Extrapolation (SDoLE / ASDoLE) as stable, second-order time integration methods for transient pipeline hydraulics.
+
+- Derived and analyzed linear stability regions, amplification factors, and order-of-accuracy properties, comparing explicit, implicit, Crank–Nicolson, θ-method, and TSD schemes.
+
+- Demonstrated that TSD provides second-order accuracy with built-in error estimation, eliminating numerical oscillations during rapid boundary condition changes.
+
+- Implemented TSD for isothermal gas flow PDEs using box-scheme discretization and Newton linearization.
+
+- Validated methods using single-pipe, multi-pipe, and gun-barrel compressor models, benchmarking against highly resolved reference solutions.
+
+- Conducted extensive runtime performance studies, showing TSD can be up to 6× faster than the θ-method in favorable regimes, while identifying cases where fallback is required.
+
+- Integrated TSD into Synergi Pipeline Simulator (SPS), including runtime enable/disable logic and automatic fallback to θ-method under challenging hydraulic conditions.
+
+- Authored and delivered reviewed internal seminars, ISS virtual seminars, and PSIG conference presentations, translating numerical analysis into practical operational guidance.
+
+
+
+## **Transient Isothermal Pipe Flow Modeling**
+
+2019
+
+Foundational Theory, Solver Design, and Reverse Engineering
+
+- Derived isothermal gas pipeline governing equations from conservation of mass and momentum.
+
+- Analyzed hyperbolicity, eigenstructure, and characteristic speeds, establishing validity regimes for transient simulations.
+
+- Implemented finite-difference spatial discretization combined with θ-method and Newton iteration for nonlinear systems.
+
+- Reverse-engineered legacy SPS, Attune, GTO, and TSM codebases, reconciling production implementations with theoretical formulations.
+
+- Documented automatic time-step selection and validation logic, including pressure- and velocity-based error metrics.
+
+- Clarified matrix formulations and discretization details used in production solvers.
+
+
+
+## **Thermal Transient Pipe Flow & Heat Transfer**
+
+2019
+
+Coupled Hydraulic–Thermal Simulation
+
+- Extended transient flow models to include energy conservation and thermal dynamics.
+
+- Implemented upwinding schemes to suppress numerical oscillations in temperature during sharp transients.
+
+- Modeled radial heat conduction through pipe walls and surrounding soil using a Galerkin finite-element approach.
+
+- Integrated thermal solvers with hydraulic box schemes using θ-weighted time integration.
+
+- Compared thermal implementations across SPS, Attune, GTO, and TSM, identifying accuracy and feature trade-offs.
+
+- Evaluated effects of film coefficients, soil properties, and SCADA boundary conditions on thermal response.
+
+
+
+## **Machine Learning & Interpolation for Thermophysical Properties**
+
+2018
+
+Research & Prototyping
+
+- Designed and trained ReLU neural networks to approximate gas compressibility Z(T,P) and compressor efficiency surfaces.
+
+- Achieved sub-1% median absolute error across high-dimensional operating domains.
+
+- Interpreted ReLU networks as continuous piecewise-linear spline approximators, enabling principled model design.
+
+- Explored model-reduction techniques (PCA, SVD, feature selection) to balance accuracy and inference cost.
+
+- Evaluated deployment strategies using exported ANN weights and C++ linear-algebra inference.
+
+- Compared ANN interpolation against classical polynomial and spline methods for robustness and numerical stability.
+
+
+
+## **Method of Characteristics (MOC)**
+
+2018
+
+Numerical Methods Review
+
+- Presented Method of Characteristics (MOC) formulation for transient gas pipeline hydraulics.
+
+- Reviewed thermodynamic assumptions related to compressibility, speed of sound, and heat transfer.
+
+- Derived characteristic equations and Riemann invariants for isothermal and non-isothermal flow.
+
+- Compared MOC with finite-difference and box-scheme approaches in terms of stability, accuracy, and applicability.
+
+- Clarified historical trade-offs influencing solver choices in commercial simulators.
+
+
+
+## **Attune vs StateFinder & Pipeline State Estimation**
+
+2017
+
+Analytics Evaluation and Model Diagnostics
+
+- Compared performance of Attune (adjoint method based state finding data assimilation optimization) and StateFinder (single-state least-squares estimation) methodologies.
+
+- Designed realistic SCADA-driven test cases to evaluate pressure and velocity reconstruction accuracy.
+
+- Identified observability limits, data requirements, and workflow mismatches between analytics tools.
+
+- Evaluated slackline flow implementations, reverse-engineering legacy algorithms and documenting assumptions.
+
+- Provided recommendations for algorithm modernization and solver upgrades.
+
+
+
+## **Adjoint Sensitivities & Gradient-Based Optimization**
+
+2017
+
+Advanced Numerical Methods
+
+- Worked with and debugged(!) adjoint sensitivity analysis for large nonlinear systems arising in pipeline simulation.
+
+- Derived continuous and discrete adjoint formulations for box-scheme-based transient solvers.
+
+- Demonstrated computational advantages of adjoint methods when the number of outputs is small relative to parameter count.
+
+- Validated adjoint implementations using inner-product tests and finite-difference comparisons.
+
+- Responsible for care and feeding of adjoint methods into Attune / TSM / GTO optimization workflows, enabling efficient gradient-based calibration.
+
+
+
+## **Legacy Code Modernization -- FORTRAN to C++**
+
+2015
+
+High-Performance Scientific Computing
+
+- Investigated automated conversion of legacy FORTRAN simulation code to modern C++ using FABLE.
+
+- Diagnosed extreme initial performance regressions (~10⁵× slower) and systematically optimized generated code.
+
+- Eliminated unnecessary runtime memory allocation by replacing emulated common blocks with namespace-scoped static variables.
+
+- Applied profiling-driven optimizations (VTune), improving memory locality and numeric efficiency.
+
+- Reduced performance gap to ~10× or better, restoring feasibility for production use.
+
+- Identified remaining challenges (row-major vs column-major ordering) and proposed generator-level improvements.
+
+
+
+## **Signal Processing & Imaging Techniques**
+
+2014
+
+Exploratory Research
+
+- Applied wavelet-based signal denoising techniques to noisy engineering and SCADA data.
+
+- Compared wavelet filtering and Empirical Mode Decomposition (EMD) with traditional smoothing methods for transient preservation.
+
+- Investigated Eulerian Video Magnification (EVM) to amplify subtle temporal variations in video data.
+
+- Analyzed spatial derivative operators (e.g., Sobel filters) and frequency-domain trade-offs for noise suppression.
+
+
+
+## **Technical Leadership & Knowledge Sharing**
+
+- Delivered recurring research reviews and innovation updates, synthesizing numerical, algorithmic, and performance findings.
+
+- Participated in several internal Simulation Software Seminar Series focused on hands-on technical learning.
+
+- Communicated complex mathematical concepts clearly to cross-disciplinary engineering audiences.
+
+- Served as a technical bridge between research, product development, and customer-facing teams.
+
+
+
+# Publications
+## ***Step Doubling for Pipeline Flow***
+
+May 2019
+
+This paper defines and studies a simple, efficient method for discretizing pipeline equations in time.
+
+Todd F Dupont, Richard D Myers
+
+[onepetro.org/PSIGAM/proceedings-abstract/PSIG19/PSIG19/PSIG-1923/2121](https://onepetro.org/PSIGAM/proceedings-abstract/PSIG19/PSIG19/PSIG-1923/2121) (Paper presented at the PSIG Annual Meeting, London, UK, May 2019)
+
+
+
+# Education
+## **University of Houston–University Park**, PhD in Mathematics -- Houston, TXSept 2003 – Aug 2005
+
+- Dissertation: *Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems*
+
+- Abstract:  In the context of the optimal control problems of state-finding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
+
+- Advisor: Prof. Jiwen He
+
+
+
+## **University of Houston–University Park**, MS in Applied Mathematics -- Houston, TXSept 2000 – May 2002
+
+Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Linear Algebra, Optimization, and Parallel Programming.
+
+
+
+## **University of Houston–University Park**, BS in Mathematics -- Houston, TXSept 1995 – May 2000
+
+- Graduated Magna Cum Laude
+
+
+
+# Technical Skills
+**Platforms:** Linux, Windows, WSL
+
+**Languages:** Python, FORTRAN, C++, Bash
+
+**Automatic Differentiation:** Odyssee, Tapenade
+
+**Parallel Programming:** MPI, OpenMP
+
+**Environments:** GCC, Clang, Make/CMake,MS Visual Studio, VS Code, TFS
+
+**Document Processing:** LaTeX, Markdown, HTML
+
+**Research Areas:** Numerical Analysis, Scientific Computing, Signal Processing, Machine Learning
+
+# Additional Training
+**Python Boot Camp:** Jan. 2007. Covered using Python programming language in a scientific computing context.
+
+**Sun Application Tuning Seminar:** Mar. 2004. Focused on using Sun's application profiler to locate code bottlenecks. Bottlenecks were then optimized. MPI and OpenMP were used for writing code for various parallel computing architectures.
+
+**CompTIA A+ Certification:** July 2003. Focused on building, repairing, and configuring OSes for PC's.
+
+**Parallel Programming with MPI Seminar at UH:** Oct. 2000. Taught by Marc Garbey. Covered parallel programming on distributed memory systems using the MPI message passing interface.
+
+# Courses Taught
+**Calculus I, MATH 1431**, University of St. Thomas: Summer 2006
+
+**Calculus II, MATH 1432**, University of St. Thomas: Fall 2005, Spring 2006, Fall 2006
+
+**Calculus III, MATH 2431**, University of St. Thomas: Spring 2007
+
+**Differential Equations, MATH 2343**, University of St. Thomas: Fall 2005, Fall 2006
+
+**Intro to Technical Computing, MATH 2338**, University of St. Thomas: Spring 2007
+
+**Numerical Analysis, MATH 3339**, University of St. Thomas: Fall 2005, Spring 2007
+
+**Linear Algebra, MATH 3334**, University of St. Thomas: Spring 2006
+
+**Probability, MATH 3335**, University of St. Thomas: Fall 2006
+
+**Real Analysis, MATH 4331**, University of St. Thomas: Fall 2006
+
+**Junior Research Seminar, MATH 3181**, University of St. Thomas: Fall 2005, Spring 2006, Fall 2006
+
+**Senior Research Seminar, MATH 4181**, University of St. Thomas: Spring 2006, Fall 2006
+
+**Independent Study, MATH 4392**, University of St. Thomas: Spring 2006, Summer 2006, Fall 2006 
+
+# Courses Developed
+**Junior/Senior Research Seminar, MATH 3181/4181**, University of St. Thomas
+
+**Introduction to Technical Computing, MATH 2338**, University of St. Thomas
+
+# Undergraduate Research Supervision
+Michael Deeb - *The Mathematics Behind Basket Ball*, Fall 2006
+
+Ashley Gibbs - *Mathematics of Stringed Instruments*, Fall 2006
+
+David Gutierrez - *The Use of Mathematics in Predicting Human Strength Performance*, Fall 2006
+
+Kulvir Kaur - *The Techniques of Teaching Mathematics in Grades 8-12*, Fall 2006
+
+Hai Le - *The Mathematics of Digital Photography*, Fall 2006
+
+Michael Nguyen - *P vs. NP*, Fall 2006
+
+Claudia Oramas - *Stabilization of Structures*, Fall 2006
+
+Linh Tran - *Mathematics and Pool*, Fall 2006
+
+Mary Tapado - *The Golden Mean*, Fall 2006
+
+Giselle Ramos-Bryan - *Pascall’s Triangle*, Spring 2006
+
+Moses Khan - *The Relevance of Mathematics in Our Daily Lives*, Spring 2006
+
+Ashley Gibbs - *Bezier Curves*, Spring 2006
+
+Michael Nguyen - *Cryptology: The Study of Cryptography and Cryptanalysis*, Spring 2006
+
+Janie Garcia - *Tomography: A mathematical Background for Medicine’s Image Machine*, Spring 2006
+
+Randhi Panapitiya - *Mathematical Relationships with Traffic Flow*, Spring 2006
+
+Robin Stone - *Chaos, Fractals, and Perlin Noise in the Generation of Virtual Landscapes*, Spring 2006
+
+Mary Tapado - *Wallpaper Patterns*, Spring 2006
+
+Janie Garcia - *Galileo Galilei: His Life, His Work*, Fall 2005
+
+Moses Khan - *The Life and Philosophy of Pythagoras*, Fall 2005
+
+Dominic Novak - *Algorithmic Composition: How can math be used in the composition of music?*, Fall 2005
+
+Giselle Ramos-Bryan - *Math in Art: Prospective Geometry*, Fall 2005
+
+Robin Stone - *Unlocking Young Minds: Methods of Teaching Mathematics*, Fall 2005
+
+# The University of St. Thomas Research Symposium (Sponsored Students)
+Ashley Gibbs - *Bezier Curves in Application*, Spring 2006
+
+Christopher LaVallee - *The Use of Mathematics in the Design of a Long-Bow*, Spring 2006
