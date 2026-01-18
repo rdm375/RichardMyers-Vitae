@@ -1,6 +1,6 @@
 cv:
   name: Richard D Myers, Ph.D.
-  headline:
+  headline: Full Curriculum Vitae
   location: Houston, TX
   email: richard.myers@proton.me
   photo:
@@ -270,7 +270,7 @@ cv:
         highlights:
           - 'Graduated Magna Cum Laude'
 
-    Skills:
+    Technical Skills:
       - label: Platforms
         details: Linux, Windows, WSL
       - label: Languages
@@ -296,6 +296,21 @@ cv:
      - label: Parallel Programming with MPI Seminar at UH
        details: Oct. 2000. Taught by Marc Garbey. Covered parallel programming on distributed memory systems using the MPI message passing interface.
 
+    Academic Appointments:
+      - company: University of St. Thomas
+        position: Visiting Assistant Professor of Mathematics
+        start_date: 2005-09
+        end_date: 2007-08
+        location: Houston, TX
+        highlights:
+          - Taught undergraduate courses across calculus, linear algebra, probability, differential equations, and numerical analysis.
+          - Supervised undergraduate research and developed new curriculum offerings.
+          - Served on departmental curriculum revision committee.
+
+    Professional Service:
+      - Curriculum development and revision, University of St. Thomas
+      - Departmental computing facilities director, Mathematics Dept, University of St. Thomas
+
     Courses Taught:
       - '**Calculus I, MATH 1431**, University of St. Thomas: Summer 2006'
       - '**Calculus II, MATH 1432**, University of St. Thomas: Fall 2005, Spring 2006, Fall 2006'
@@ -314,7 +329,7 @@ cv:
       - '**Junior/Senior Research Seminar, MATH 3181/4181**, University of St. Thomas'
       - '**Introduction to Technical Computing, MATH 2338**, University of St. Thomas'
 
-    Undergraduate Research Projects Directed:
+    Undergraduate Research Supervision:
       #JuniorSenior Seminar:
       - 'Michael Deeb - *The Mathematics Behind Basket Ball*, Fall 2006'
       - 'Ashley Gibbs - *Mathematics of Stringed Instruments*, Fall 2006'
@@ -339,7 +354,7 @@ cv:
       - 'Giselle Ramos-Bryan - *Math in Art: Prospective Geometry*, Fall 2005'
       - 'Robin Stone - *Unlocking Young Minds: Methods of Teaching Mathematics*, Fall 2005'
 
-    The University of St. Thomas Research Symposium:
+    The University of St. Thomas Research Symposium (Sponsored Students):
       - Ashley Gibbs - *Bezier Curves in Application*, Spring 2006
       - Christopher LaVallee - *The Use of Mathematics in the Design of a Long-Bow*, Spring 2006
 
@@ -506,11 +521,11 @@ settings:
   render_command:
     design:
     locale:
-    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
-    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
-    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
-    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV-Full.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV-Full.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV-Full.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV-Full.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV-Full.png
     dont_generate_markdown: false
     dont_generate_html: true
     dont_generate_typst: false

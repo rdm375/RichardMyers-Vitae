@@ -394,7 +394,7 @@ Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Li
 
 
 
-# Skills
+# Technical Skills
 **Platforms:** Linux, Windows, WSL
 
 **Languages:** Python, FORTRAN, C++, Bash
@@ -417,6 +417,24 @@ Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Li
 **CompTIA A+ Certification:** July 2003. Focused on building, repairing, and configuring OSes for PC's.
 
 **Parallel Programming with MPI Seminar at UH:** Oct. 2000. Taught by Marc Garbey. Covered parallel programming on distributed memory systems using the MPI message passing interface.
+
+# Academic Appointments
+## **Visiting Assistant Professor of Mathematics**, University of St. Thomas -- Houston, TX
+
+Sept 2005 – Aug 2007
+
+- Taught undergraduate courses across calculus, linear algebra, probability, differential equations, and numerical analysis.
+
+- Supervised undergraduate research and developed new curriculum offerings.
+
+- Served on departmental curriculum revision committee.
+
+
+
+# Professional Service
+Curriculum development and revision, University of St. Thomas
+
+Departmental computing facilities director, Mathematics Dept, University of St. Thomas
 
 # Courses Taught
 **Calculus I, MATH 1431**, University of St. Thomas: Summer 2006
@@ -448,7 +466,7 @@ Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Li
 
 **Introduction to Technical Computing, MATH 2338**, University of St. Thomas
 
-# Undergraduate Research Projects Directed
+# Undergraduate Research Supervision
 Michael Deeb - *The Mathematics Behind Basket Ball*, Fall 2006
 
 Ashley Gibbs - *Mathematics of Stringed Instruments*, Fall 2006
@@ -493,7 +511,7 @@ Giselle Ramos-Bryan - *Math in Art: Prospective Geometry*, Fall 2005
 
 Robin Stone - *Unlocking Young Minds: Methods of Teaching Mathematics*, Fall 2005
 
-# The University of St. Thomas Research Symposium
+# The University of St. Thomas Research Symposium (Sponsored Students)
 Ashley Gibbs - *Bezier Curves in Application*, Spring 2006
 
 Christopher LaVallee - *The Use of Mathematics in the Design of a Long-Bow*, Spring 2006

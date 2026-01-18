@@ -85,6 +85,8 @@
 
 = Richard D Myers, Ph.D.
 
+  #headline([Full Curriculum Vitae])
+
 #connections(
   [#connection-with-icon("location-dot")[Houston, TX]],
   [#link("mailto:richard.myers@proton.me", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[richard.myers\@proton.me]]],
@@ -655,7 +657,7 @@ Developer Tooling, Debugging, and Technical Training
   ],
 )
 
-== Skills
+== Technical Skills
 
 #strong[Platforms:] Linux, Windows, WSL
 
@@ -680,6 +682,33 @@ Developer Tooling, Debugging, and Technical Training
 #strong[CompTIA A+ Certification:] July 2003. Focused on building, repairing, and configuring OSes for PC's.
 
 #strong[Parallel Programming with MPI Seminar at UH:] Oct. 2000. Taught by Marc Garbey. Covered parallel programming on distributed memory systems using the MPI message passing interface.
+
+== Academic Appointments
+
+#regular-entry(
+  [
+    #strong[Visiting Assistant Professor of Mathematics], University of St. Thomas -- Houston, TX
+
+  ],
+  [
+    Sept 2005 – Aug 2007
+
+  ],
+  main-column-second-row: [
+    - Taught undergraduate courses across calculus, linear algebra, probability, differential equations, and numerical analysis.
+
+    - Supervised undergraduate research and developed new curriculum offerings.
+
+    - Served on departmental curriculum revision committee.
+
+  ],
+)
+
+== Professional Service
+
+Curriculum development and revision, University of St. Thomas
+
+Departmental computing facilities director, Mathematics Dept, University of St. Thomas
 
 == Courses Taught
 
@@ -713,7 +742,7 @@ Developer Tooling, Debugging, and Technical Training
 
 #strong[Introduction to Technical Computing, MATH 2338], University of St. Thomas
 
-== Undergraduate Research Projects Directed
+== Undergraduate Research Supervision
 
 Michael Deeb - #emph[The Mathematics Behind Basket Ball], Fall 2006
 
@@ -759,7 +788,7 @@ Giselle Ramos-Bryan - #emph[Math in Art: Prospective Geometry], Fall 2005
 
 Robin Stone - #emph[Unlocking Young Minds: Methods of Teaching Mathematics], Fall 2005
 
-== The University of St. Thomas Research Symposium
+== The University of St. Thomas Research Symposium (Sponsored Students)
 
 Ashley Gibbs - #emph[Bezier Curves in Application], Spring 2006
 
