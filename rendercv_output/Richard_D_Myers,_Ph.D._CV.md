@@ -12,6 +12,15 @@ Principal research and software engineer with deep expertise in numerical method
 
 Extensive experience bridging theory and practice: PDE modeling, stability and accuracy analysis, adjoint methods, optimization, thermal–hydraulic coupling, legacy code modernization, and developer enablement. Proven ability to translate advanced mathematics into robust, production-quality software and to communicate complex technical concepts to diverse audiences.
 
+# Professional Profile
+Combines **deep mathematical rigor** with **production software impact**
+
+Operates effectively across **research, architecture, and implementation**
+
+Strong communicator of complex technical concepts to both expert and non-expert audiences
+
+Proven record of **long-horizon technical ownership** and sustained innovation
+
 # Core Technical Expertise
 Numerical Methods for PDEs and ODEs
 
@@ -32,29 +41,6 @@ Legacy Code Modernization (FORTRAN → C++)
 Machine Learning for Scientific Interpolation
 
 Developer Tooling, Debugging, and Technical Training
-
-# Education
-## **University of Houston–University Park**, PhD in Mathematics -- Houston, TXSept 2003 – Aug 2005
-
-- Dissertation: *Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems*
-
-- Abstract:  In the context of the optimal control problems of state-finding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
-
-- Advisor: Prof. Jiwen He
-
-
-
-## **University of Houston–University Park**, MS in Applied Mathematics -- Houston, TXSept 2000 – May 2002
-
-Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Linear Algebra, Optimization, and Parallel Programming.
-
-
-
-## **University of Houston–University Park**, BS in Mathematics -- Houston, TXSept 1995 – May 2000
-
-- Graduated Magna Cum Laude
-
-
 
 # Professional Experience
 ## **Software Development Scientist**, DNV -- Katy, TX
@@ -385,35 +371,82 @@ Todd F Dupont, Richard D Myers
 
 
 
+# Education
+## **University of Houston–University Park**, PhD in Mathematics -- Houston, TXSept 2003 – Aug 2005
+
+- Dissertation: *Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems*
+
+- Abstract:  In the context of the optimal control problems of state-finding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
+
+- Advisor: Prof. Jiwen He
+
+
+
+## **University of Houston–University Park**, MS in Applied Mathematics -- Houston, TXSept 2000 – May 2002
+
+Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Linear Algebra, Optimization, and Parallel Programming.
+
+
+
+## **University of Houston–University Park**, BS in Mathematics -- Houston, TXSept 1995 – May 2000
+
+- Graduated Magna Cum Laude
+
+
+
+# Skills
+**Platforms:** Linux, Windows, WSL
+
+**Languages:** Python, FORTRAN, C++, Bash
+
+**Automatic Differentiation:** Odyssee, Tapenade
+
+**Parallel Programming:** MPI, OpenMP
+
+**Environments:** GCC, Clang, Make/CMake,MS Visual Studio, VS Code, TFS
+
+**Document Processing:** LaTeX, Markdown, HTML
+
+**Research Areas:** Numerical Analysis, Scientific Computing, Signal Processing, Machine Learning
+
+# Additional Training
+**Python Boot Camp:** Jan. 2007. Covered using Python programming language in a scientific computing context.
+
+**Sun Application Tuning Seminar:** Mar. 2004. Focused on using Sun's application profiler to locate code bottlenecks. Bottlenecks were then optimized. MPI and OpenMP were used for writing code for various parallel computing architectures.
+
+**CompTIA A+ Certification:** July 2003. Focused on building, repairing, and configuring OSes for PC's.
+
+**Parallel Programming with MPI Seminar at UH:** Oct. 2000. Taught by Marc Garbey. Covered parallel programming on distributed memory systems using the MPI message passing interface.
+
 # Courses Taught
-Calculus I, MATH 1431, University of St. Thomas: Summer 2006
+**Calculus I, MATH 1431**, University of St. Thomas: Summer 2006
 
-Calculus II, MATH 1432, University of St. Thomas: Fall 2005, Spring 2006, Fall 2006
+**Calculus II, MATH 1432**, University of St. Thomas: Fall 2005, Spring 2006, Fall 2006
 
-Calculus III, MATH 2431, University of St. Thomas: Spring 2007
+**Calculus III, MATH 2431**, University of St. Thomas: Spring 2007
 
-Differential Equations, MATH 2343, University of St. Thomas: Fall 2005, Fall 2006
+**Differential Equations, MATH 2343**, University of St. Thomas: Fall 2005, Fall 2006
 
-Intro to Technical Computing, MATH 2338, University of St. Thomas: Spring 2007
+**Intro to Technical Computing, MATH 2338**, University of St. Thomas: Spring 2007
 
-Numerical Analysis, MATH 3339, University of St. Thomas: Fall 2005, Spring 2007
+**Numerical Analysis, MATH 3339**, University of St. Thomas: Fall 2005, Spring 2007
 
-Linear Algebra, MATH 3334, University of St. Thomas: Spring 2006
+**Linear Algebra, MATH 3334**, University of St. Thomas: Spring 2006
 
-Probability, MATH 3335, University of St. Thomas: Fall 2006
+**Probability, MATH 3335**, University of St. Thomas: Fall 2006
 
-Real Analysis, MATH 4331, University of St. Thomas: Fall 2006
+**Real Analysis, MATH 4331**, University of St. Thomas: Fall 2006
 
-Junior Research Seminar, MATH 3181, University of St. Thomas: Fall 2005, Spring 2006, Fall 2006
+**Junior Research Seminar, MATH 3181**, University of St. Thomas: Fall 2005, Spring 2006, Fall 2006
 
-Senior Research Seminar, MATH 4181, University of St. Thomas: Spring 2006, Fall 2006
+**Senior Research Seminar, MATH 4181**, University of St. Thomas: Spring 2006, Fall 2006
 
-Independent Study, MATH 4392, University of St. Thomas: Spring 2006, Summer 2006, Fall 2006 
+**Independent Study, MATH 4392**, University of St. Thomas: Spring 2006, Summer 2006, Fall 2006 
 
 # Courses Developed
-Junior/Senior Research Seminar, MATH 3181/4181, University of St. Thomas
+**Junior/Senior Research Seminar, MATH 3181/4181**, University of St. Thomas
 
-Introduction to Technical Computing, MATH 2338, University of St. Thomas
+**Introduction to Technical Computing, MATH 2338**, University of St. Thomas
 
 # Undergraduate Research Projects Directed
 Michael Deeb - *The Mathematics Behind Basket Ball*, Fall 2006
@@ -432,7 +465,7 @@ Claudia Oramas - *Stabilization of Structures*, Fall 2006
 
 Linh Tran - *Mathematics and Pool*, Fall 2006
 
-Mary Tapado - *The Golden Mean, Fall 2006
+Mary Tapado - *The Golden Mean*, Fall 2006
 
 Giselle Ramos-Bryan - *Pascall’s Triangle*, Spring 2006
 
@@ -450,7 +483,7 @@ Robin Stone - *Chaos, Fractals, and Perlin Noise in the Generation of Virtual La
 
 Mary Tapado - *Wallpaper Patterns*, Spring 2006
 
-Janie Garcia - *Galileo Galilei: His Life, His Work, Fall 2005
+Janie Garcia - *Galileo Galilei: His Life, His Work*, Fall 2005
 
 Moses Khan - *The Life and Philosophy of Pythagoras*, Fall 2005
 
@@ -464,36 +497,3 @@ Robin Stone - *Unlocking Young Minds: Methods of Teaching Mathematics*, Fall 200
 Ashley Gibbs - *Bezier Curves in Application*, Spring 2006
 
 Christopher LaVallee - *The Use of Mathematics in the Design of a Long-Bow*, Spring 2006
-
-# Skills
-**Platforms:** Linux, Windows, WSL
-
-**Languages:** Python, FORTRAN, C++, Bash
-
-**Automatic Differentiation:** Odyssee, Tapenade
-
-**Parallel Programming:** MPI, OpenMP
-
-**Environments:** GCC, Clang, Make/CMake,MS Visual Studio, VS Code, TFS
-
-**Document Processing:** LaTeX, Markdown, HTML
-
-**Research Areas:** Numerical Analysis, Scientific Computing, Signal Processing, Machine Learning
-
-# Additional Training
-Python Boot Camp, Jan. 2007. Covered using Python programming language in a scientific computing context.
-
-Sun Application Tuning Seminar, Mar. 2004. Focused on using Sun's application profiler to locate code bottlenecks. Bottlenecks were then optimized. MPI and OpenMP were used for writing code for various parallel computing architectures.
-
-CompTIA A+ Certification, July 2003. Focused on building, repairing, and configuring OSes for PC's.
-
-Parallel Programming with MPI Seminar at UH, taught by Marc Garbey, Oct. 2000. Covered parallel programming on distributed memory systems using the MPI message passing interface.
-
-# Professional Profile
-Combines **deep mathematical rigor** with **production software impact**
-
-Operates effectively across **research, architecture, and implementation**
-
-Strong communicator of complex technical concepts to both expert and non-expert audiences
-
-Proven record of **long-horizon technical ownership** and sustained innovation

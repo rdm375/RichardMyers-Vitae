@@ -100,6 +100,16 @@ Principal research and software engineer with deep expertise in numerical method
 
 Extensive experience bridging theory and practice: PDE modeling, stability and accuracy analysis, adjoint methods, optimization, thermal–hydraulic coupling, legacy code modernization, and developer enablement. Proven ability to translate advanced mathematics into robust, production-quality software and to communicate complex technical concepts to diverse audiences.
 
+== Professional Profile
+
+Combines #strong[deep mathematical rigor] with #strong[production software impact]
+
+Operates effectively across #strong[research, architecture, and implementation]
+
+Strong communicator of complex technical concepts to both expert and non-expert audiences
+
+Proven record of #strong[long-horizon technical ownership] and sustained innovation
+
 == Core Technical Expertise
 
 Numerical Methods for PDEs and ODEs
@@ -121,57 +131,6 @@ Legacy Code Modernization (FORTRAN → C++)
 Machine Learning for Scientific Interpolation
 
 Developer Tooling, Debugging, and Technical Training
-
-== Education
-
-#education-entry(
-  [
-    #strong[University of Houston–University Park], PhD in Mathematics -- Houston, TX
-
-  ],
-  [
-    Sept 2003 – Aug 2005
-
-  ],
-  main-column-second-row: [
-    - Dissertation: #emph[Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems]
-
-    - Abstract:  In the context of the optimal control problems of state-finding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
-
-    - Advisor: Prof. Jiwen He
-
-  ],
-)
-
-#education-entry(
-  [
-    #strong[University of Houston–University Park], MS in Applied Mathematics -- Houston, TX
-
-  ],
-  [
-    Sept 2000 – May 2002
-
-  ],
-  main-column-second-row: [
-    #summary[Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Linear Algebra, Optimization, and Parallel Programming.]
-
-  ],
-)
-
-#education-entry(
-  [
-    #strong[University of Houston–University Park], BS in Mathematics -- Houston, TX
-
-  ],
-  [
-    Sept 1995 – May 2000
-
-  ],
-  main-column-second-row: [
-    - Graduated Magna Cum Laude
-
-  ],
-)
 
 == Professional Experience
 
@@ -645,89 +604,56 @@ Developer Tooling, Debugging, and Technical Training
   ],
 )
 
-== Courses Taught
+== Education
 
-Calculus I, MATH 1431, University of St. Thomas: Summer 2006
+#education-entry(
+  [
+    #strong[University of Houston–University Park], PhD in Mathematics -- Houston, TX
 
-Calculus II, MATH 1432, University of St. Thomas: Fall 2005, Spring 2006, Fall 2006
+  ],
+  [
+    Sept 2003 – Aug 2005
 
-Calculus III, MATH 2431, University of St. Thomas: Spring 2007
+  ],
+  main-column-second-row: [
+    - Dissertation: #emph[Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems]
 
-Differential Equations, MATH 2343, University of St. Thomas: Fall 2005, Fall 2006
+    - Abstract:  In the context of the optimal control problems of state-finding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
 
-Intro to Technical Computing, MATH 2338, University of St. Thomas: Spring 2007
+    - Advisor: Prof. Jiwen He
 
-Numerical Analysis, MATH 3339, University of St. Thomas: Fall 2005, Spring 2007
+  ],
+)
 
-Linear Algebra, MATH 3334, University of St. Thomas: Spring 2006
+#education-entry(
+  [
+    #strong[University of Houston–University Park], MS in Applied Mathematics -- Houston, TX
 
-Probability, MATH 3335, University of St. Thomas: Fall 2006
+  ],
+  [
+    Sept 2000 – May 2002
 
-Real Analysis, MATH 4331, University of St. Thomas: Fall 2006
+  ],
+  main-column-second-row: [
+    #summary[Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Linear Algebra, Optimization, and Parallel Programming.]
 
-Junior Research Seminar, MATH 3181, University of St. Thomas: Fall 2005, Spring 2006, Fall 2006
+  ],
+)
 
-Senior Research Seminar, MATH 4181, University of St. Thomas: Spring 2006, Fall 2006
+#education-entry(
+  [
+    #strong[University of Houston–University Park], BS in Mathematics -- Houston, TX
 
-Independent Study, MATH 4392, University of St. Thomas: Spring 2006, Summer 2006, Fall 2006
+  ],
+  [
+    Sept 1995 – May 2000
 
-== Courses Developed
+  ],
+  main-column-second-row: [
+    - Graduated Magna Cum Laude
 
-Junior\/Senior Research Seminar, MATH 3181\/4181, University of St. Thomas
-
-Introduction to Technical Computing, MATH 2338, University of St. Thomas
-
-== Undergraduate Research Projects Directed
-
-Michael Deeb - #emph[The Mathematics Behind Basket Ball], Fall 2006
-
-Ashley Gibbs - #emph[Mathematics of Stringed Instruments], Fall 2006
-
-David Gutierrez - #sym.ast.basic#h(0pt, weak: true) The Use of Mathematics in Predicting Human Strength Performance, Fall 2006
-
-Kulvir Kaur - #emph[The Techniques of Teaching Mathematics in Grades 8-12], Fall 2006
-
-Hai Le - #emph[The Mathematics of Digital Photography], Fall 2006
-
-Michael Nguyen - #emph[P vs. NP], Fall 2006
-
-Claudia Oramas - #emph[Stabilization of Structures], Fall 2006
-
-Linh Tran - #emph[Mathematics and Pool], Fall 2006
-
-Mary Tapado - #sym.ast.basic#h(0pt, weak: true) The Golden Mean, Fall 2006
-
-Giselle Ramos-Bryan - #emph[Pascall’s Triangle], Spring 2006
-
-Moses Khan - #emph[The Relevance of Mathematics in Our Daily Lives], Spring 2006
-
-Ashley Gibbs - #emph[Bezier Curves], Spring 2006
-
-Michael Nguyen - #emph[Cryptology: The Study of Cryptography and Cryptanalysis], Spring 2006
-
-Janie Garcia - #emph[Tomography: A mathematical Background for Medicine’s Image Machine], Spring 2006
-
-Randhi Panapitiya - #emph[Mathematical Relationships with Traffic Flow], Spring 2006
-
-Robin Stone - #emph[Chaos, Fractals, and Perlin Noise in the Generation of Virtual Landscapes], Spring 2006
-
-Mary Tapado - #emph[Wallpaper Patterns], Spring 2006
-
-Janie Garcia - #sym.ast.basic#h(0pt, weak: true) Galileo Galilei: His Life, His Work, Fall 2005
-
-Moses Khan - #emph[The Life and Philosophy of Pythagoras], Fall 2005
-
-Dominic Novak - #emph[Algorithmic Composition: How can math be used in the composition of music?], Fall 2005
-
-Giselle Ramos-Bryan - #emph[Math in Art: Prospective Geometry], Fall 2005
-
-Robin Stone - #emph[Unlocking Young Minds: Methods of Teaching Mathematics], Fall 2005
-
-== The University of St. Thomas Research Symposium
-
-Ashley Gibbs - #emph[Bezier Curves in Application], Spring 2006
-
-Christopher LaVallee - #emph[The Use of Mathematics in the Design of a Long-Bow], Spring 2006
+  ],
+)
 
 == Skills
 
@@ -747,20 +673,94 @@ Christopher LaVallee - #emph[The Use of Mathematics in the Design of a Long-Bow]
 
 == Additional Training
 
-Python Boot Camp, Jan. 2007. Covered using Python programming language in a scientific computing context.
+#strong[Python Boot Camp:] Jan. 2007. Covered using Python programming language in a scientific computing context.
 
-Sun Application Tuning Seminar, Mar. 2004. Focused on using Sun's application profiler to locate code bottlenecks. Bottlenecks were then optimized. MPI and OpenMP were used for writing code for various parallel computing architectures.
+#strong[Sun Application Tuning Seminar:] Mar. 2004. Focused on using Sun's application profiler to locate code bottlenecks. Bottlenecks were then optimized. MPI and OpenMP were used for writing code for various parallel computing architectures.
 
-CompTIA A+ Certification, July 2003. Focused on building, repairing, and configuring OSes for PC's.
+#strong[CompTIA A+ Certification:] July 2003. Focused on building, repairing, and configuring OSes for PC's.
 
-Parallel Programming with MPI Seminar at UH, taught by Marc Garbey, Oct. 2000. Covered parallel programming on distributed memory systems using the MPI message passing interface.
+#strong[Parallel Programming with MPI Seminar at UH:] Oct. 2000. Taught by Marc Garbey. Covered parallel programming on distributed memory systems using the MPI message passing interface.
 
-== Professional Profile
+== Courses Taught
 
-Combines #strong[deep mathematical rigor] with #strong[production software impact]
+#strong[Calculus I, MATH 1431], University of St. Thomas: Summer 2006
 
-Operates effectively across #strong[research, architecture, and implementation]
+#strong[Calculus II, MATH 1432], University of St. Thomas: Fall 2005, Spring 2006, Fall 2006
 
-Strong communicator of complex technical concepts to both expert and non-expert audiences
+#strong[Calculus III, MATH 2431], University of St. Thomas: Spring 2007
 
-Proven record of #strong[long-horizon technical ownership] and sustained innovation
+#strong[Differential Equations, MATH 2343], University of St. Thomas: Fall 2005, Fall 2006
+
+#strong[Intro to Technical Computing, MATH 2338], University of St. Thomas: Spring 2007
+
+#strong[Numerical Analysis, MATH 3339], University of St. Thomas: Fall 2005, Spring 2007
+
+#strong[Linear Algebra, MATH 3334], University of St. Thomas: Spring 2006
+
+#strong[Probability, MATH 3335], University of St. Thomas: Fall 2006
+
+#strong[Real Analysis, MATH 4331], University of St. Thomas: Fall 2006
+
+#strong[Junior Research Seminar, MATH 3181], University of St. Thomas: Fall 2005, Spring 2006, Fall 2006
+
+#strong[Senior Research Seminar, MATH 4181], University of St. Thomas: Spring 2006, Fall 2006
+
+#strong[Independent Study, MATH 4392], University of St. Thomas: Spring 2006, Summer 2006, Fall 2006
+
+== Courses Developed
+
+#strong[Junior\/Senior Research Seminar, MATH 3181\/4181], University of St. Thomas
+
+#strong[Introduction to Technical Computing, MATH 2338], University of St. Thomas
+
+== Undergraduate Research Projects Directed
+
+Michael Deeb - #emph[The Mathematics Behind Basket Ball], Fall 2006
+
+Ashley Gibbs - #emph[Mathematics of Stringed Instruments], Fall 2006
+
+David Gutierrez - #sym.ast.basic#h(0pt, weak: true) The Use of Mathematics in Predicting Human Strength Performance, Fall 2006
+
+Kulvir Kaur - #emph[The Techniques of Teaching Mathematics in Grades 8-12], Fall 2006
+
+Hai Le - #emph[The Mathematics of Digital Photography], Fall 2006
+
+Michael Nguyen - #emph[P vs. NP], Fall 2006
+
+Claudia Oramas - #emph[Stabilization of Structures], Fall 2006
+
+Linh Tran - #emph[Mathematics and Pool], Fall 2006
+
+Mary Tapado - #emph[The Golden Mean], Fall 2006
+
+Giselle Ramos-Bryan - #emph[Pascall’s Triangle], Spring 2006
+
+Moses Khan - #emph[The Relevance of Mathematics in Our Daily Lives], Spring 2006
+
+Ashley Gibbs - #emph[Bezier Curves], Spring 2006
+
+Michael Nguyen - #emph[Cryptology: The Study of Cryptography and Cryptanalysis], Spring 2006
+
+Janie Garcia - #emph[Tomography: A mathematical Background for Medicine’s Image Machine], Spring 2006
+
+Randhi Panapitiya - #emph[Mathematical Relationships with Traffic Flow], Spring 2006
+
+Robin Stone - #emph[Chaos, Fractals, and Perlin Noise in the Generation of Virtual Landscapes], Spring 2006
+
+Mary Tapado - #emph[Wallpaper Patterns], Spring 2006
+
+Janie Garcia - #emph[Galileo Galilei: His Life, His Work], Fall 2005
+
+Moses Khan - #emph[The Life and Philosophy of Pythagoras], Fall 2005
+
+Dominic Novak - #emph[Algorithmic Composition: How can math be used in the composition of music?], Fall 2005
+
+Giselle Ramos-Bryan - #emph[Math in Art: Prospective Geometry], Fall 2005
+
+Robin Stone - #emph[Unlocking Young Minds: Methods of Teaching Mathematics], Fall 2005
+
+== The University of St. Thomas Research Symposium
+
+Ashley Gibbs - #emph[Bezier Curves in Application], Spring 2006
+
+Christopher LaVallee - #emph[The Use of Mathematics in the Design of a Long-Bow], Spring 2006

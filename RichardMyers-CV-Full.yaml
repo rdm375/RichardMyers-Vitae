@@ -294,7 +294,7 @@ cv:
      - label: CompTIA A+ Certification
        details: July 2003. Focused on building, repairing, and configuring OSes for PC's.
      - label: Parallel Programming with MPI Seminar at UH
-       details: taught by Marc Garbey, Oct. 2000. Covered parallel programming on distributed memory systems using the MPI message passing interface.
+       details: Oct. 2000. Taught by Marc Garbey. Covered parallel programming on distributed memory systems using the MPI message passing interface.
 
     Courses Taught:
       - '**Calculus I, MATH 1431**, University of St. Thomas: Summer 2006'
@@ -512,10 +512,10 @@ settings:
     html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
     png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
     dont_generate_markdown: false
-    dont_generate_html: false
+    dont_generate_html: true
     dont_generate_typst: false
     dont_generate_pdf: false
-    dont_generate_png: false
+    dont_generate_png: true
   bold_keywords: []
 
 # LocalWords:  TSD SDoLE ASDoLE θ PDE PDEs ODEs Runge Kutta Jiwen Magna
