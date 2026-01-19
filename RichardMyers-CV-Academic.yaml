@@ -119,6 +119,7 @@ cv:
           - 'Dissertation: *Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems*'
           - 'Abstract:  In the context of the optimal control problems of state-finding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.'
           - 'Advisor: Prof. Jiwen He'
+          - '[github.com/rdm375/RichardMyers-Dissertation/](url: https://github.com/rdm375/RichardMyers-Dissertation/)'
       - institution: 'University of Houston–University Park'
         area: Applied Mathematics
         degree: MS

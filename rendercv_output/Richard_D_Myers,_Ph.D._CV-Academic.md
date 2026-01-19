@@ -155,6 +155,8 @@ Todd F Dupont, Richard D Myers
 
 - Advisor: Prof. Jiwen He
 
+- [github.com/rdm375/RichardMyers-Dissertation/](url: https://github.com/rdm375/RichardMyers-Dissertation/)
+
 
 
 ## **University of Houston–University Park**, MS in Applied Mathematics -- Houston, TXSept 2000 – May 2002

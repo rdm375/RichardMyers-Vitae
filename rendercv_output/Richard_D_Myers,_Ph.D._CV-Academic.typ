@@ -283,6 +283,8 @@ Computational fluid dynamics and pipeline flow modeling
 
     - Advisor: Prof. Jiwen He
 
+    - #link("url: https://github.com/rdm375/RichardMyers-Dissertation/")[github.com\/rdm375\/RichardMyers-Dissertation\/]
+
   ],
 )
 

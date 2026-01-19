@@ -626,6 +626,8 @@ Proven record of #strong[long-horizon technical ownership] and sustained innovat
 
     - Advisor: Prof. Jiwen He
 
+    - #link("url: https://github.com/rdm375/RichardMyers-Dissertation/")[github.com\/rdm375\/RichardMyers-Dissertation\/]
+
   ],
 )
 
