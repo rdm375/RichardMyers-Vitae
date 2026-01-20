@@ -55,11 +55,11 @@ Sept 2007 – Mar 2025
 
 Sept 2006 – Aug 2007
 
-- Built and maintained a departmental Beowulf cluster;
+- Built and maintained a departmental Beowulf cluster.
 
-- installed and configured operating systems and software on departmental computers and students' personal laptops;
+- Installed and configured operating systems and software on departmental computers and students' personal laptops.
 
-- designed a Linux-based computer lab.
+- Designed a Linux-based computer lab.
 
 
 
@@ -73,9 +73,9 @@ Sept 2005 – Aug 2007
 
 - Served on departmental curriculum revision committee.
 
-- served as department library liaison;
+- Served as department library liaison.
 
-- developed a computer science minor for the Mathematics Department.
+- Developed a computer science minor for the Mathematics Department.
 
 
 
@@ -83,11 +83,11 @@ Sept 2005 – Aug 2007
 
 Aug 2003 – Aug 2005
 
-- Responsible for Calculus labs;
+- Responsible for Calculus labs.
 
-- provided one-on-one student assistance;
+- Provided one-on-one student assistance.
 
-- graded exams/assignments and recorded grades.
+- Graded exams/assignments and recorded grades.
 
 
 
@@ -95,9 +95,9 @@ Aug 2003 – Aug 2005
 
 June 2000 – Aug 2003
 
-- Explored numerical algorithms for simulating advection-diffusion-reaction equations arising in atmospheric chemistry and transport modeling;
+- Explored numerical algorithms for simulating advection-diffusion-reaction equations arising in atmospheric chemistry and transport modeling.
 
-- Built and ran NCAR's MM5 numerical weather prediction model;
+- Built and ran NCAR's MM5 numerical weather prediction model.
 
 - performed code validation, verification, and performance analysis on high-performance computing platforms.
 

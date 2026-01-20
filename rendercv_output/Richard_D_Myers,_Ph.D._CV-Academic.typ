@@ -85,8 +85,6 @@
 
 = Richard D Myers, Ph.D.
 
-  #headline([Academic Curriculum Vitae])
-
 #connections(
   [#connection-with-icon("location-dot")[Houston, TX]],
   [#link("mailto:richard.myers@proton.me", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[richard.myers\@proton.me]]],
@@ -184,7 +182,7 @@ Christopher LaVallee - #emph[The Use of Mathematics in the Design of a Long-Bow]
 
 #regular-entry(
   [
-    #strong[Visiting Assistant Professor of Mathematics], University of St. Thomas -- Houston,TX
+    #strong[Visiting Assistant Professor of Mathematics], University of St Thomas -- Houston,TX
 
   ],
   [
@@ -198,9 +196,9 @@ Christopher LaVallee - #emph[The Use of Mathematics in the Design of a Long-Bow]
 
     - Served on departmental curriculum revision committee.
 
-    - served as department library liaison;
+    - Served as department library liaison.
 
-    - developed a computer science minor for the Mathematics Department.
+    - Developed a computer science minor for the Mathematics Department.
 
   ],
 )

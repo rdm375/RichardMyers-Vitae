@@ -1,6 +1,6 @@
 cv:
   name: Richard D Myers, Ph.D.
-  headline: Academic Curriculum Vitae
+  #headline: Academic Curriculum Vitae
   location: Houston, TX
   email: richard.myers@proton.me
   photo:
@@ -61,7 +61,7 @@ cv:
       - Christopher LaVallee - *The Use of Mathematics in the Design of a Long-Bow*, Spring 2006
 
     Academic Appointments:
-      - company: University of St. Thomas
+      - company: University of St Thomas
         position: Visiting Assistant Professor of Mathematics
         date:
         start_date: 2005-09
@@ -72,8 +72,8 @@ cv:
           - Taught undergraduate courses across calculus, linear algebra, probability, differential equations, and numerical analysis.
           - Supervised undergraduate research and developed new curriculum offerings.
           - Served on departmental curriculum revision committee.
-          - served as department library liaison;
-          - developed a computer science minor for the Mathematics Department.
+          - Served as department library liaison.
+          - Developed a computer science minor for the Mathematics Department.
 
     Professional Service:
       - Curriculum development and revision, University of St. Thomas

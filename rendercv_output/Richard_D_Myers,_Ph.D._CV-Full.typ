@@ -85,8 +85,6 @@
 
 = Richard D Myers, Ph.D.
 
-  #headline([Full Curriculum Vitae])
-
 #connections(
   [#connection-with-icon("location-dot")[Houston, TX]],
   [#link("mailto:richard.myers@proton.me", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[richard.myers\@proton.me]]],
@@ -161,11 +159,11 @@ Proven record of #strong[long-horizon technical ownership] and sustained innovat
 
   ],
   main-column-second-row: [
-    - Built and maintained a departmental Beowulf cluster;
+    - Built and maintained a departmental Beowulf cluster.
 
-    - installed and configured operating systems and software on departmental computers and students' personal laptops;
+    - Installed and configured operating systems and software on departmental computers and students' personal laptops.
 
-    - designed a Linux-based computer lab.
+    - Designed a Linux-based computer lab.
 
   ],
 )
@@ -186,9 +184,9 @@ Proven record of #strong[long-horizon technical ownership] and sustained innovat
 
     - Served on departmental curriculum revision committee.
 
-    - served as department library liaison;
+    - Served as department library liaison.
 
-    - developed a computer science minor for the Mathematics Department.
+    - Developed a computer science minor for the Mathematics Department.
 
   ],
 )
@@ -203,11 +201,11 @@ Proven record of #strong[long-horizon technical ownership] and sustained innovat
 
   ],
   main-column-second-row: [
-    - Responsible for Calculus labs;
+    - Responsible for Calculus labs.
 
-    - provided one-on-one student assistance;
+    - Provided one-on-one student assistance.
 
-    - graded exams\/assignments and recorded grades.
+    - Graded exams\/assignments and recorded grades.
 
   ],
 )
@@ -222,9 +220,9 @@ Proven record of #strong[long-horizon technical ownership] and sustained innovat
 
   ],
   main-column-second-row: [
-    - Explored numerical algorithms for simulating advection-diffusion-reaction equations arising in atmospheric chemistry and transport modeling;
+    - Explored numerical algorithms for simulating advection-diffusion-reaction equations arising in atmospheric chemistry and transport modeling.
 
-    - Built and ran NCAR's MM5 numerical weather prediction model;
+    - Built and ran NCAR's MM5 numerical weather prediction model.
 
     - performed code validation, verification, and performance analysis on high-performance computing platforms.
 

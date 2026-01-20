@@ -1,6 +1,6 @@
 cv:
   name: Richard D Myers, Ph.D.
-  headline: Full Curriculum Vitae
+  #headline: Full Curriculum Vitae
   location: Houston, TX
   email: richard.myers@proton.me
   photo:
@@ -54,9 +54,9 @@ cv:
         location: Houston, TX
         summary:
         highlights:
-          - Built and maintained a departmental Beowulf cluster;
-          - installed and configured operating systems and software on departmental computers and students' personal laptops;
-          - designed a Linux-based computer lab.
+          - Built and maintained a departmental Beowulf cluster.
+          - Installed and configured operating systems and software on departmental computers and students' personal laptops.
+          - Designed a Linux-based computer lab.
 
       - company: University of St Thomas
         position: Visiting Assistant Professor of Mathematics
@@ -69,8 +69,8 @@ cv:
           - Taught undergraduate courses across calculus, linear algebra, probability, differential equations, and numerical analysis.
           - Supervised undergraduate research and developed new curriculum offerings.
           - Served on departmental curriculum revision committee.
-          - served as department library liaison;
-          - developed a computer science minor for the Mathematics Department.
+          - Served as department library liaison.
+          - Developed a computer science minor for the Mathematics Department.
 
       - company: University of Houston–University Park
         position: Teaching Assistant
@@ -80,9 +80,9 @@ cv:
         location: Houston, TX
         summary:
         highlights:
-          - Responsible for Calculus labs;
-          - provided one-on-one student assistance;
-          - graded exams/assignments and recorded grades.
+          - Responsible for Calculus labs.
+          - Provided one-on-one student assistance.
+          - Graded exams/assignments and recorded grades.
 
       - company: University of Houston–University Park
         position: Graduate Research Assistant
@@ -92,8 +92,8 @@ cv:
         location: Houston, TX
         summary:
         highlights:
-          - Explored numerical algorithms for simulating advection-diffusion-reaction equations arising in atmospheric chemistry and transport modeling;
-          - Built and ran NCAR's MM5 numerical weather prediction model;
+          - Explored numerical algorithms for simulating advection-diffusion-reaction equations arising in atmospheric chemistry and transport modeling.
+          - Built and ran NCAR's MM5 numerical weather prediction model.
           - performed code validation, verification, and performance analysis on high-performance computing platforms.
 
     Selected Projects:
