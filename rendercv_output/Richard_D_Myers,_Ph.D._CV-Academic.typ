@@ -182,7 +182,7 @@ Christopher LaVallee - #emph[The Use of Mathematics in the Design of a Long-Bow]
 
 #regular-entry(
   [
-    #strong[Visiting Assistant Professor of Mathematics], University of St Thomas -- Houston,TX
+    #strong[Visiting Assistant Professor of Mathematics], University of St Thomas -- Houston, TX
 
   ],
   [

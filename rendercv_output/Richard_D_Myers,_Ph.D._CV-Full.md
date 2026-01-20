@@ -10,7 +10,7 @@
 # Professional Summary
 Principal research and software engineer with deep expertise in numerical methods for transient pipeline flow, scientific computing, and simulation software architecture. Led multi-year research, validation, and production deployment of advanced time-integration algorithms (notably Time-Step Doubling) within large-scale commercial pipeline simulators.
 
-Extensive experience bridging theory and practice: PDE modeling, stability and accuracy analysis, adjoint methods, optimization, thermal–hydraulic coupling, legacy code modernization, and developer enablement. Proven ability to translate advanced mathematics into robust, production-quality software and to communicate complex technical concepts to diverse audiences.
+Extensive experience bridging theory and practice: PDE modeling; stability and accuracy analysis; adjoint methods; optimization; thermal–hydraulic coupling; legacy code modernization; and developer enablement. Proven ability to translate advanced mathematics into robust, production-quality software and to communicate complex technical concepts to diverse audiences.
 
 # Core Technical Expertise
 Numerical Methods for PDEs and ODEs
@@ -25,7 +25,7 @@ Adjoint Sensitivities & Gradient-Based Optimization
 
 State Estimation, Calibration, and Leak Detection
 
-Scientific Computing (C++, Python)
+Scientific Computing (C++, Python, FORTRAN)
 
 Legacy Code Modernization (FORTRAN → C++)
 
@@ -47,7 +47,7 @@ Proven record of **long-horizon technical ownership** and sustained innovation
 
 Sept 2007 – Mar 2025
 
-- Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms including **Synergi Gas, Stoner Pipeline Simulator (SPS), Attune, GTO, and TSM**.
+- Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms, including **Synergi Gas, Stoner Pipeline Simulator (SPS), Attune, GTO, and TSM**.
 
 
 
@@ -112,11 +112,11 @@ Simulator and Optimizer Interoperability
 
 - Began initial work on a Python-based tool to convert pipeline models between DNV's Synergi Pipeline Simulator (SPS), Attune/GTO/TSM, and LANL's GasModels.jl.
 
-- The idea is to use GasModels.jl to jump start State-Finding and Transient Optimization for Attune and GTO.
+- The goal was to use GasModels.jl to jump start State-Finding and Transient Optimization for Attune and GTO.
 
 - Researched the model formats for SPS, Attune/GTO/TSM, and GasModels.jl to understand their differences and similarities.
 
-- Implemented initial code to read/write pipeline models for SPS models, Attune/GTO/TSM, and GasModels.jl.
+- Implemented initial code to read/write pipeline models for all target platforms.
 
 
 
