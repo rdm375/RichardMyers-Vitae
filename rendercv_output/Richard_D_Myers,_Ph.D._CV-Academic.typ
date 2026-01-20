@@ -128,7 +128,7 @@
 
 == Undergraduate Research Supervision
 
-Michael Deeb - #emph[The Mathematics Behind Basket Ball], Fall 2006
+Michael Deeb - #emph[The Mathematics Behind Basketball], Fall 2006
 
 Ashley Gibbs - #emph[Mathematics of Stringed Instruments], Fall 2006
 
@@ -146,7 +146,7 @@ Linh Tran - #emph[Mathematics and Pool], Fall 2006
 
 Mary Tapado - #emph[The Golden Mean], Fall 2006
 
-Giselle Ramos-Bryan - #emph[Pascall’s Triangle], Spring 2006
+Giselle Ramos-Bryan - #emph[Pascal’s Triangle], Spring 2006
 
 Moses Khan - #emph[The Relevance of Mathematics in Our Daily Lives], Spring 2006
 
@@ -172,7 +172,7 @@ Giselle Ramos-Bryan - #emph[Math in Art: Prospective Geometry], Fall 2005
 
 Robin Stone - #emph[Unlocking Young Minds: Methods of Teaching Mathematics], Fall 2005
 
-== The University of St. Thomas Research Symposium
+== The University of St. Thomas Research Symposium (Sponsored Students)
 
 Ashley Gibbs - #emph[Bezier Curves in Application], Spring 2006
 
@@ -281,7 +281,7 @@ Computational fluid dynamics and pipeline flow modeling
   main-column-second-row: [
     - Dissertation: #emph[Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems]
 
-    - Abstract:  In the context of the optimal control problems of state-finding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
+    - Abstract: In the context of optimal control problems of state-finding and time-based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
 
     - Advisor: Prof. Jiwen He
 
@@ -300,7 +300,7 @@ Computational fluid dynamics and pipeline flow modeling
 
   ],
   main-column-second-row: [
-    #summary[Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Linear Algebra, Optimization, and Parallel Programming.]
+    #summary[Focused on Numerical Analysis and Scientific Computing: Numerical ODEs, PDEs, Linear Algebra, Optimization, and Parallel Programming.]
 
   ],
 )

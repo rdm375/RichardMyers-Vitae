@@ -47,7 +47,7 @@ Proven record of **long-horizon technical ownership** and sustained innovation
 
 Sept 2007 – Mar 2025
 
-- Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms including **Synergi Gas, Stoner Pipeline Simulator(SPS), Attune, GTO, and TSM**.
+- Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms including **Synergi Gas, Stoner Pipeline Simulator (SPS), Attune, GTO, and TSM**.
 
 
 
@@ -63,7 +63,7 @@ Sept 2006 – Aug 2007
 
 
 
-## **Visiting Assistant Professor of Mathematics**, University of St Thomas -- Houston,TX
+## **Visiting Assistant Professor of Mathematics**, University of St Thomas -- Houston, TX
 
 Sept 2005 – Aug 2007
 
@@ -110,9 +110,9 @@ June 2000 – Aug 2003
 
 Simulator and Optimizer Interoperability
 
-- Began initial work on a Python based tool to convert pipeline models between DNV's Synergi Pipeline Simulator (SPS), Attune/GTO/TSM, and LANL's GasModels.jl.
+- Began initial work on a Python-based tool to convert pipeline models between DNV's Synergi Pipeline Simulator (SPS), Attune/GTO/TSM, and LANL's GasModels.jl.
 
-- The idea is to use GasModels.jl to jump start State Finding and Transient Optimization for Attune and GTO.
+- The idea is to use GasModels.jl to jump start State-Finding and Transient Optimization for Attune and GTO.
 
 - Researched the model formats for SPS, Attune/GTO/TSM, and GasModels.jl to understand their differences and similarities.
 
@@ -136,7 +136,7 @@ Research & Development
 
 - The full thermal calculations in Attune/GTO/TSM were tightly integrated to the hydraulic calculations, so using the thermal calculations required replacing the pipe hydraulics in the slow transients engine.
 
-- Thouroughly documented everything in mathematically rigorous detail for the next person (future-me).
+- Thoroughly documented everything in mathematically rigorous detail for the next person (future-me).
 
 
 
@@ -282,7 +282,7 @@ Numerical Methods Review
 
 Analytics Evaluation and Model Diagnostics
 
-- Compared performance of Attune (adjoint method based state finding data assimilation optimization) and StateFinder (single-state least-squares estimation) methodologies.
+- Compared performance of Attune (adjoint method based state-finding data assimilation optimization) and StateFinder (single-state least-squares estimation) methodologies.
 
 - Designed realistic SCADA-driven test cases to evaluate pressure and velocity reconstruction accuracy.
 
@@ -378,7 +378,7 @@ Todd F Dupont, Richard D Myers
 
 - Dissertation: *Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems*
 
-- Abstract:  In the context of the optimal control problems of state-finding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
+- Abstract: In the context of optimal control problems of state-finding and time-based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
 
 - Advisor: Prof. Jiwen He
 
@@ -388,7 +388,7 @@ Todd F Dupont, Richard D Myers
 
 ## **University of Houston–University Park**, MS in Applied Mathematics -- Houston, TXSept 2000 – May 2002
 
-Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Linear Algebra, Optimization, and Parallel Programming.
+Focused on Numerical Analysis and Scientific Computing: Numerical ODEs, PDEs, Linear Algebra, Optimization, and Parallel Programming.
 
 
 
@@ -414,11 +414,11 @@ Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Li
 **Research Areas:** Numerical Analysis, Scientific Computing, Signal Processing, Machine Learning
 
 # Additional Training
-**Python Boot Camp:** Jan. 2007. Covered using Python programming language in a scientific computing context.
+**Python Boot Camp:** Jan. 2007. Covered use of the Python programming language in a scientific computing context.
 
-**Sun Application Tuning Seminar:** Mar. 2004. Focused on using Sun's application profiler to locate code bottlenecks. Bottlenecks were then optimized. MPI and OpenMP were used for writing code for various parallel computing architectures.
+**Sun Application Tuning Seminar:** Mar. 2004. Focused on using Sun's application profiler to locate and optimize code bottlenecks. MPI and OpenMP were used for writing code for various parallel computing architectures.
 
-**CompTIA A+ Certification:** July 2003. Focused on building, repairing, and configuring OSes for PC's.
+**CompTIA A+ Certification:** July 2003. Focused on building, repairing, and configuring operating systems for PCs.
 
 **Parallel Programming with MPI Seminar at UH:** Oct. 2000. Taught by Marc Garbey. Covered parallel programming on distributed memory systems using the MPI message passing interface.
 
@@ -453,7 +453,7 @@ Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Li
 **Introduction to Technical Computing, MATH 2338**, University of St. Thomas
 
 # Undergraduate Research Supervision
-Michael Deeb - *The Mathematics Behind Basket Ball*, Fall 2006
+Michael Deeb - *The Mathematics Behind Basketball*, Fall 2006
 
 Ashley Gibbs - *Mathematics of Stringed Instruments*, Fall 2006
 
@@ -471,7 +471,7 @@ Linh Tran - *Mathematics and Pool*, Fall 2006
 
 Mary Tapado - *The Golden Mean*, Fall 2006
 
-Giselle Ramos-Bryan - *Pascall’s Triangle*, Spring 2006
+Giselle Ramos-Bryan - *Pascal’s Triangle*, Spring 2006
 
 Moses Khan - *The Relevance of Mathematics in Our Daily Lives*, Spring 2006
 

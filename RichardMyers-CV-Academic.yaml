@@ -33,7 +33,8 @@ cv:
       - '**Introduction to Technical Computing, MATH 2338**, University of St. Thomas'
 
     Undergraduate Research Supervision:
-      - 'Michael Deeb - *The Mathematics Behind Basket Ball*, Fall 2006'
+      #JuniorSenior Seminar:
+      - 'Michael Deeb - *The Mathematics Behind Basketball*, Fall 2006'
       - 'Ashley Gibbs - *Mathematics of Stringed Instruments*, Fall 2006'
       - 'David Gutierrez - *The Use of Mathematics in Predicting Human Strength Performance*, Fall 2006'
       - 'Kulvir Kaur - *The Techniques of Teaching Mathematics in Grades 8-12*, Fall 2006'
@@ -42,7 +43,7 @@ cv:
       - 'Claudia Oramas - *Stabilization of Structures*, Fall 2006'
       - 'Linh Tran - *Mathematics and Pool*, Fall 2006'
       - 'Mary Tapado - *The Golden Mean*, Fall 2006'
-      - 'Giselle Ramos-Bryan - *Pascall’s Triangle*, Spring 2006'
+      - 'Giselle Ramos-Bryan - *Pascal’s Triangle*, Spring 2006'
       - 'Moses Khan - *The Relevance of Mathematics in Our Daily Lives*, Spring 2006'
       - 'Ashley Gibbs - *Bezier Curves*, Spring 2006'
       - 'Michael Nguyen - *Cryptology: The Study of Cryptography and Cryptanalysis*, Spring 2006'
@@ -56,7 +57,7 @@ cv:
       - 'Giselle Ramos-Bryan - *Math in Art: Prospective Geometry*, Fall 2005'
       - 'Robin Stone - *Unlocking Young Minds: Methods of Teaching Mathematics*, Fall 2005'
 
-    The University of St. Thomas Research Symposium:
+    The University of St. Thomas Research Symposium (Sponsored Students):
       - Ashley Gibbs - *Bezier Curves in Application*, Spring 2006
       - Christopher LaVallee - *The Use of Mathematics in the Design of a Long-Bow*, Spring 2006
 
@@ -121,7 +122,7 @@ cv:
         summary:
         highlights:
           - 'Dissertation: *Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems*'
-          - 'Abstract:  In the context of the optimal control problems of state-finding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.'
+          - 'Abstract: In the context of optimal control problems of state-finding and time-based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.'
           - 'Advisor: Prof. Jiwen He'
           - '[github.com/rdm375/RichardMyers-Dissertation/](url: https://github.com/rdm375/RichardMyers-Dissertation/)'
       - institution: 'University of Houston–University Park'
@@ -131,7 +132,7 @@ cv:
         start_date: 2000-09
         end_date: 2002-05
         location: Houston, TX
-        summary: 'Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Linear Algebra, Optimization, and Parallel Programming.'
+        summary: 'Focused on Numerical Analysis and Scientific Computing: Numerical ODEs, PDEs, Linear Algebra, Optimization, and Parallel Programming.'
         highlights:
       - institution: 'University of Houston–University Park'
         area: Mathematics

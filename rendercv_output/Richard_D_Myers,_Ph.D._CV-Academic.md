@@ -38,7 +38,7 @@
 **Introduction to Technical Computing, MATH 2338**, University of St. Thomas
 
 # Undergraduate Research Supervision
-Michael Deeb - *The Mathematics Behind Basket Ball*, Fall 2006
+Michael Deeb - *The Mathematics Behind Basketball*, Fall 2006
 
 Ashley Gibbs - *Mathematics of Stringed Instruments*, Fall 2006
 
@@ -56,7 +56,7 @@ Linh Tran - *Mathematics and Pool*, Fall 2006
 
 Mary Tapado - *The Golden Mean*, Fall 2006
 
-Giselle Ramos-Bryan - *Pascall’s Triangle*, Spring 2006
+Giselle Ramos-Bryan - *Pascal’s Triangle*, Spring 2006
 
 Moses Khan - *The Relevance of Mathematics in Our Daily Lives*, Spring 2006
 
@@ -82,7 +82,7 @@ Giselle Ramos-Bryan - *Math in Art: Prospective Geometry*, Fall 2005
 
 Robin Stone - *Unlocking Young Minds: Methods of Teaching Mathematics*, Fall 2005
 
-# The University of St. Thomas Research Symposium
+# The University of St. Thomas Research Symposium (Sponsored Students)
 Ashley Gibbs - *Bezier Curves in Application*, Spring 2006
 
 Christopher LaVallee - *The Use of Mathematics in the Design of a Long-Bow*, Spring 2006
@@ -155,7 +155,7 @@ Todd F Dupont, Richard D Myers
 
 - Dissertation: *Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems*
 
-- Abstract:  In the context of the optimal control problems of state-finding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
+- Abstract: In the context of optimal control problems of state-finding and time-based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.
 
 - Advisor: Prof. Jiwen He
 
@@ -165,7 +165,7 @@ Todd F Dupont, Richard D Myers
 
 ## **University of Houston–University Park**, MS in Applied Mathematics -- Houston, TXSept 2000 – May 2002
 
-Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Linear Algebra, Optimization, and Parallel Programming.
+Focused on Numerical Analysis and Scientific Computing: Numerical ODEs, PDEs, Linear Algebra, Optimization, and Parallel Programming.
 
 
 

@@ -45,7 +45,7 @@ cv:
         location: Katy, TX
         summary:
         highlights:
-          - Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms including **Synergi Gas, Stoner Pipeline Simulator(SPS), Attune, GTO, and TSM**.
+          - Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms including **Synergi Gas, Stoner Pipeline Simulator (SPS), Attune, GTO, and TSM**.
       - company: University of St Thomas
         position: Director of Computing Facilities for the Mathematics Department
         date:
@@ -63,7 +63,7 @@ cv:
         date:
         start_date: 2005-09
         end_date: 2007-08
-        location: Houston,TX
+        location: Houston, TX
         summary:
         highlights:
           - Taught undergraduate courses across calculus, linear algebra, probability, differential equations, and numerical analysis.
@@ -101,8 +101,8 @@ cv:
         date: 2024
         summary: Simulator and Optimizer Interoperability
         highlights:
-          - Began initial work on a Python based tool to convert pipeline models between DNV's Synergi Pipeline Simulator (SPS), Attune/GTO/TSM, and LANL's GasModels.jl.
-          - The idea is to use GasModels.jl to jump start State Finding and Transient Optimization for Attune and GTO.
+          - Began initial work on a Python-based tool to convert pipeline models between DNV's Synergi Pipeline Simulator (SPS), Attune/GTO/TSM, and LANL's GasModels.jl.
+          - The idea is to use GasModels.jl to jump start State-Finding and Transient Optimization for Attune and GTO.
           - Researched the model formats for SPS, Attune/GTO/TSM, and GasModels.jl to understand their differences and similarities.
           - Implemented initial code to read/write pipeline models for SPS models, Attune/GTO/TSM, and GasModels.jl.
       - name: Investigate merging Attune/GTO/TSM Thermal Shell Calculations into Synergi Gas Slow Transients Engine
@@ -114,7 +114,7 @@ cv:
           - Code spelunked finding where to insert the calculations.
           - Found that manual FORTRAN memory management in Slow Transients Engine made integration challenging.
           - The full thermal calculations in Attune/GTO/TSM were tightly integrated to the hydraulic calculations, so using the thermal calculations required replacing the pipe hydraulics in the slow transients engine.
-          - Thouroughly documented everything in mathematically rigorous detail for the next person (future-me).
+          - Thoroughly documented everything in mathematically rigorous detail for the next person (future-me).
       - name: Column Separation Estimation
         date: 2022
         summary: Advanced Numerical Methods
@@ -187,7 +187,7 @@ cv:
         date: 2017
         summary: Analytics Evaluation and Model Diagnostics
         highlights:
-          - Compared performance of Attune (adjoint method based state finding data assimilation optimization) and StateFinder (single-state least-squares estimation) methodologies.
+          - Compared performance of Attune (adjoint method based state-finding data assimilation optimization) and StateFinder (single-state least-squares estimation) methodologies.
           - Designed realistic SCADA-driven test cases to evaluate pressure and velocity reconstruction accuracy.
           - Identified observability limits, data requirements, and workflow mismatches between analytics tools.
           - Evaluated slackline flow implementations, reverse-engineering legacy algorithms and documenting assumptions.
@@ -249,7 +249,7 @@ cv:
         summary:
         highlights:
           - 'Dissertation: *Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems*'
-          - 'Abstract:  In the context of the optimal control problems of state-finding and time based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.'
+          - 'Abstract: In the context of optimal control problems of state-finding and time-based controls, adjoint discretizations for Runge-Kutta methods were developed that converge at the same rate as the solution and objective function.'
           - 'Advisor: Prof. Jiwen He'
           - '[github.com/rdm375/RichardMyers-Dissertation/](url: https://github.com/rdm375/RichardMyers-Dissertation/)'
       - institution: 'University of Houston–University Park'
@@ -259,7 +259,7 @@ cv:
         start_date: 2000-09
         end_date: 2002-05
         location: Houston, TX
-        summary: 'Focused on Numerical Analysis and Scientific Computing: Numerical Odes, PDEs, Linear Algebra, Optimization, and Parallel Programming.'
+        summary: 'Focused on Numerical Analysis and Scientific Computing: Numerical ODEs, PDEs, Linear Algebra, Optimization, and Parallel Programming.'
         highlights:
       - institution: 'University of Houston–University Park'
         area: Mathematics
@@ -290,11 +290,11 @@ cv:
 
     Additional Training:
      - label: Python Boot Camp
-       details: Jan. 2007. Covered using Python programming language in a scientific computing context.
+       details: Jan. 2007. Covered use of the Python programming language in a scientific computing context.
      - label: Sun Application Tuning Seminar
-       details: Mar. 2004. Focused on using Sun's application profiler to locate code bottlenecks. Bottlenecks were then optimized. MPI and OpenMP were used for writing code for various parallel computing architectures.
+       details: Mar. 2004. Focused on using Sun's application profiler to locate and optimize code bottlenecks. MPI and OpenMP were used for writing code for various parallel computing architectures.
      - label: CompTIA A+ Certification
-       details: July 2003. Focused on building, repairing, and configuring OSes for PC's.
+       details: July 2003. Focused on building, repairing, and configuring operating systems for PCs.
      - label: Parallel Programming with MPI Seminar at UH
        details: Oct. 2000. Taught by Marc Garbey. Covered parallel programming on distributed memory systems using the MPI message passing interface.
 
@@ -333,7 +333,7 @@ cv:
 
     Undergraduate Research Supervision:
       #JuniorSenior Seminar:
-      - 'Michael Deeb - *The Mathematics Behind Basket Ball*, Fall 2006'
+      - 'Michael Deeb - *The Mathematics Behind Basketball*, Fall 2006'
       - 'Ashley Gibbs - *Mathematics of Stringed Instruments*, Fall 2006'
       - 'David Gutierrez - *The Use of Mathematics in Predicting Human Strength Performance*, Fall 2006'
       - 'Kulvir Kaur - *The Techniques of Teaching Mathematics in Grades 8-12*, Fall 2006'
@@ -342,7 +342,7 @@ cv:
       - 'Claudia Oramas - *Stabilization of Structures*, Fall 2006'
       - 'Linh Tran - *Mathematics and Pool*, Fall 2006'
       - 'Mary Tapado - *The Golden Mean*, Fall 2006'
-      - 'Giselle Ramos-Bryan - *Pascall’s Triangle*, Spring 2006'
+      - 'Giselle Ramos-Bryan - *Pascal’s Triangle*, Spring 2006'
       - 'Moses Khan - *The Relevance of Mathematics in Our Daily Lives*, Spring 2006'
       - 'Ashley Gibbs - *Bezier Curves*, Spring 2006'
       - 'Michael Nguyen - *Cryptology: The Study of Cryptography and Cryptanalysis*, Spring 2006'
