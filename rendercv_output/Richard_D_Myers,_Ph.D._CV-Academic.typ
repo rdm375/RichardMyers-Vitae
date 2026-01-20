@@ -184,7 +184,7 @@ Christopher LaVallee - #emph[The Use of Mathematics in the Design of a Long-Bow]
 
 #regular-entry(
   [
-    #strong[Visiting Assistant Professor of Mathematics], University of St. Thomas -- Houston, TX
+    #strong[Visiting Assistant Professor of Mathematics], University of St. Thomas -- Houston,TX
 
   ],
   [
@@ -197,6 +197,10 @@ Christopher LaVallee - #emph[The Use of Mathematics in the Design of a Long-Bow]
     - Supervised undergraduate research and developed new curriculum offerings.
 
     - Served on departmental curriculum revision committee.
+
+    - served as department library liaison;
+
+    - developed a computer science minor for the Mathematics Department.
 
   ],
 )

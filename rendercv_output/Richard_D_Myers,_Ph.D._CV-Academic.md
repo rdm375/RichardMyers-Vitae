@@ -88,7 +88,7 @@ Ashley Gibbs - *Bezier Curves in Application*, Spring 2006
 Christopher LaVallee - *The Use of Mathematics in the Design of a Long-Bow*, Spring 2006
 
 # Academic Appointments
-## **Visiting Assistant Professor of Mathematics**, University of St. Thomas -- Houston, TX
+## **Visiting Assistant Professor of Mathematics**, University of St. Thomas -- Houston,TX
 
 Sept 2005 – Aug 2007
 
@@ -97,6 +97,10 @@ Sept 2005 – Aug 2007
 - Supervised undergraduate research and developed new curriculum offerings.
 
 - Served on departmental curriculum revision committee.
+
+- served as department library liaison;
+
+- developed a computer science minor for the Mathematics Department.
 
 
 

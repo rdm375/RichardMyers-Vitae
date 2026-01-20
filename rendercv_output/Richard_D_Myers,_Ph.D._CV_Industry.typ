@@ -180,15 +180,15 @@ Proven record of #strong[long-horizon technical ownership] and sustained innovat
 
   ],
   main-column-second-row: [
-    - Teaching a 4\/4 course load;
+    - Taught undergraduate courses across calculus, linear algebra, probability, differential equations, and numerical analysis.
 
-    - guiding undergraduate research;
+    - Supervised undergraduate research and developed new curriculum offerings.
 
-    - serving on curriculum revision committee for Mathematics Department;
+    - Served on departmental curriculum revision committee.
 
-    - Served as department library liaison;
+    - served as department library liaison;
 
-    - development of a computer science minor.
+    - developed a computer science minor for the Mathematics Department.
 
   ],
 )

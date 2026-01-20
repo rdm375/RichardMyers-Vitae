@@ -63,13 +63,17 @@ cv:
     Academic Appointments:
       - company: University of St. Thomas
         position: Visiting Assistant Professor of Mathematics
+        date:
         start_date: 2005-09
         end_date: 2007-08
-        location: Houston, TX
+        location: Houston,TX
+        summary:
         highlights:
           - Taught undergraduate courses across calculus, linear algebra, probability, differential equations, and numerical analysis.
           - Supervised undergraduate research and developed new curriculum offerings.
           - Served on departmental curriculum revision committee.
+          - served as department library liaison;
+          - developed a computer science minor for the Mathematics Department.
 
     Professional Service:
       - Curriculum development and revision, University of St. Thomas
