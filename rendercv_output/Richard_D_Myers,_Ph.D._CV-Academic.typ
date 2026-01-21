@@ -233,13 +233,15 @@ Computational fluid dynamics and pipeline flow modeling
 
   ],
   main-column-second-row: [
-    - Conducted long-term applied research in numerical methods for transient flow simulation.
+    - Led #strong[research, development, validation, and production deployment] of advanced numerical algorithms for real-time and offline pipeline simulation platforms, including #strong[Synergi Gas], #strong[Stoner Pipeline Simulator (SPS)], #strong[Attune], #strong[GTO], and #strong[TSM].
 
-    - Developed, analyzed, and validated time integration schemes with provable stability and accuracy properties.
+    - Conducted #strong[long-horizon applied research in numerical methods for transient pipeline flow], developing, analyzing, and validating time-integration schemes with #strong[provable stability and accuracy properties].
 
-    - Bridged theoretical numerical analysis with large-scale production simulation codes.
+    - Served as a technical authority for #strong[transient hydraulic and thermal simulation], spanning #strong[PDE formulation], #strong[spatial discretization], #strong[nonlinear solvers], #strong[stability analysis], and #strong[runtime robustness] under SCADA-driven operational conditions.
 
-    - Strong communicator of complex technical concepts to both expert and non-expert audiences
+    - Bridged #strong[theoretical numerical analysis] and #strong[large-scale production simulation code], reverse-engineering and modernizing legacy #strong[FORTRAN] and #strong[C++] codebases while preserving #strong[numerical fidelity], #strong[performance], and #strong[backward compatibility].
+
+    - Drove #strong[cross-team technical enablement and knowledge transfer] through #strong[internal seminars], #strong[developer training], #strong[technical documentation], and direct collaboration with #strong[research], #strong[product], and #strong[customer-facing engineering teams].
 
     - Proven record of long-horizon technical ownership and sustained innovation
 

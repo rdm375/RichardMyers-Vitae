@@ -125,13 +125,15 @@ Computational fluid dynamics and pipeline flow modeling
 
 Sept 2007 – Mar 2025
 
-- Conducted long-term applied research in numerical methods for transient flow simulation.
+- Led **research, development, validation, and production deployment** of advanced numerical algorithms for real-time and offline pipeline simulation platforms, including **Synergi Gas**, **Stoner Pipeline Simulator (SPS)**, **Attune**, **GTO**, and **TSM**.
 
-- Developed, analyzed, and validated time integration schemes with provable stability and accuracy properties.
+- Conducted **long-horizon applied research in numerical methods for transient pipeline flow**, developing, analyzing, and validating time-integration schemes with **provable stability and accuracy properties**.
 
-- Bridged theoretical numerical analysis with large-scale production simulation codes.
+- Served as a technical authority for **transient hydraulic and thermal simulation**, spanning **PDE formulation**, **spatial discretization**, **nonlinear solvers**, **stability analysis**, and **runtime robustness** under SCADA-driven operational conditions.
 
-- Strong communicator of complex technical concepts to both expert and non-expert audiences
+- Bridged **theoretical numerical analysis** and **large-scale production simulation code**, reverse-engineering and modernizing legacy **FORTRAN** and **C++** codebases while preserving **numerical fidelity**, **performance**, and **backward compatibility**.
+
+- Drove **cross-team technical enablement and knowledge transfer** through **internal seminars**, **developer training**, **technical documentation**, and direct collaboration with **research**, **product**, and **customer-facing engineering teams**.
 
 - Proven record of long-horizon technical ownership and sustained innovation
 

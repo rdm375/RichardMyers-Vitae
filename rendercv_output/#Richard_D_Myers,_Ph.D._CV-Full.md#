@@ -47,18 +47,14 @@ Proven record of **long-horizon technical ownership** and sustained innovation
 
 Sept 2007 – Mar 2025
 
-- Led **research, development, validation, and production deployment** of advanced numerical algorithms for real-time and offline pipeline simulation platforms, including **Synergi Gas**, **Stoner Pipeline Simulator (SPS)**, **Attune**, **GTO**, and **TSM**.
+- Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms, including **Synergi Gas, Stoner Pipeline Simulator (SPS), Attune, GTO, and TSM**.
 
-- Conducted **long-horizon applied research in numerical methods for transient pipeline flow**, developing, analyzing, and validating time-integration schemes with **provable stability and accuracy properties**.
 
-- Served as a technical authority for **transient hydraulic and thermal simulation**, spanning **PDE formulation**, **spatial discretization**, **nonlinear solvers**, **stability analysis**, and **runtime robustness** under SCADA-driven operational conditions.
+Served as a technical authority for transient pipeline hydraulics and thermal simulation, spanning PDE formulation, discretization, nonlinear solvers, stability analysis, and runtime robustness under operational SCADA-driven conditions.
 
-- Bridged **theoretical numerical analysis** and **large-scale production simulation code**, reverse-engineering and modernizing legacy **FORTRAN** and **C++** codebases while preserving **numerical fidelity**, **performance**, and **backward compatibility**.
+Bridged theoretical numerical analysis and legacy production code, reverse-engineering and modernizing large FORTRAN and C++ codebases while preserving numerical fidelity, performance, and backward compatibility.
 
-- Drove **cross-team technical enablement and knowledge transfer** through **internal seminars**, **developer training**, **technical documentation**, and direct collaboration with **research**, **product**, and **customer-facing engineering teams**.
-
-- Proven record of long-horizon technical ownership and sustained innovation
-
+Drove cross-team technical enablement and knowledge transfer through internal seminars, developer training, documentation, and direct collaboration with product, research, and customer-facing engineering teams.
 
 
 ## **Director of Computing Facilities for the Mathematics Department**, University of St Thomas -- Houston, TX

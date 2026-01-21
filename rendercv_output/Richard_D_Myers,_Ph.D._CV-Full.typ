@@ -144,7 +144,17 @@ Proven record of #strong[long-horizon technical ownership] and sustained innovat
 
   ],
   main-column-second-row: [
-    - Led research, development, and deployment of advanced numerical algorithms for real-time and offline pipeline simulation platforms, including #strong[Synergi Gas, Stoner Pipeline Simulator (SPS), Attune, GTO, and TSM].
+    - Led #strong[research, development, validation, and production deployment] of advanced numerical algorithms for real-time and offline pipeline simulation platforms, including #strong[Synergi Gas], #strong[Stoner Pipeline Simulator (SPS)], #strong[Attune], #strong[GTO], and #strong[TSM].
+
+    - Conducted #strong[long-horizon applied research in numerical methods for transient pipeline flow], developing, analyzing, and validating time-integration schemes with #strong[provable stability and accuracy properties].
+
+    - Served as a technical authority for #strong[transient hydraulic and thermal simulation], spanning #strong[PDE formulation], #strong[spatial discretization], #strong[nonlinear solvers], #strong[stability analysis], and #strong[runtime robustness] under SCADA-driven operational conditions.
+
+    - Bridged #strong[theoretical numerical analysis] and #strong[large-scale production simulation code], reverse-engineering and modernizing legacy #strong[FORTRAN] and #strong[C++] codebases while preserving #strong[numerical fidelity], #strong[performance], and #strong[backward compatibility].
+
+    - Drove #strong[cross-team technical enablement and knowledge transfer] through #strong[internal seminars], #strong[developer training], #strong[technical documentation], and direct collaboration with #strong[research], #strong[product], and #strong[customer-facing engineering teams].
+
+    - Proven record of long-horizon technical ownership and sustained innovation
 
   ],
 )
