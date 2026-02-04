@@ -87,7 +87,7 @@
 
 #connections(
   [#connection-with-icon("location-dot")[Houston, TX]],
-  [#link("mailto:richard.myers@proton.me", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[richard.myers\@proton.me]]],
+  [#link("mailto:richard.d.myers@proton.me", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[richard.d.myers\@proton.me]]],
   [#link("tel:+1-832-352-8823", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[(832) 352-8823]]],
   [#link("https://linkedin.com/in/richard-myers-ph-d-5997b93a2", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[richard-myers-ph-d-5997b93a2]]],
   [#link("https://github.com/rdm375", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[rdm375]]],

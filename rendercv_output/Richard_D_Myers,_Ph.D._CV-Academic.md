@@ -1,7 +1,7 @@
 # Richard D Myers, Ph.D.'s CV
 
 - Phone: +1 832 352 8823
-- Email: [richard.myers@proton.me](mailto:richard.myers@proton.me)
+- Email: [richard.d.myers@proton.me](mailto:richard.d.myers@proton.me)
 - Location: Houston, TX
 - LinkedIn: [richard-myers-ph-d-5997b93a2](https://linkedin.com/in/richard-myers-ph-d-5997b93a2)
 - GitHub: [rdm375](https://github.com/rdm375)
