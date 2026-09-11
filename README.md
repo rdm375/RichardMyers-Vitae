@@ -384,7 +384,8 @@ Todd F Dupont, Richard D Myers
 
 
 # Education
-## **University of Houston–University Park**, PhD in Mathematics -- Houston, TXSept 2003 – Aug 2005
+## **University of Houston–University Park**, PhD in Mathematics -- Houston, TX
+Sept 2003 – Aug 2005
 
 - Dissertation: *Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems*
 
@@ -396,13 +397,15 @@ Todd F Dupont, Richard D Myers
 
 
 
-## **University of Houston–University Park**, MS in Applied Mathematics -- Houston, TXSept 2000 – May 2002
+## **University of Houston–University Park**, MS in Applied Mathematics -- Houston, TX
+Sept 2000 – May 2002
 
 Focused on Numerical Analysis and Scientific Computing: Numerical ODEs, PDEs, Linear Algebra, Optimization, and Parallel Programming.
 
 
 
-## **University of Houston–University Park**, BS in Mathematics -- Houston, TXSept 1995 – May 2000
+## **University of Houston–University Park**, BS in Mathematics -- Houston, TX
+Sept 1995 – May 2000
 
 - Graduated Magna Cum Laude
 
