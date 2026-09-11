@@ -1,0 +1,107 @@
+name: Render CV and deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "RichardMyers-CV-*.yaml"
+      - ".github/workflows/render-cv.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install RenderCV
+        run: python -m pip install "rendercv[full]"
+
+      - name: Render all CV editions
+        run: |
+          rendercv render RichardMyers-CV-Full.yaml \
+            --markdown-path build/full.md \
+            --html-path build/full.html \
+            --pdf-path build/RichardMyers-CV-Full.pdf \
+            --dont-generate-typst \
+            --dont-generate-png
+
+          rendercv render RichardMyers-CV-Academic.yaml \
+            --markdown-path build/academic.md \
+            --html-path build/academic.html \
+            --pdf-path build/RichardMyers-CV-Academic.pdf \
+            --dont-generate-typst \
+            --dont-generate-png
+
+          rendercv render RichardMyers-CV-Industry.yaml \
+            --markdown-path build/industry.md \
+            --html-path build/industry.html \
+            --pdf-path build/RichardMyers-CV-Industry.pdf \
+            --dont-generate-typst \
+            --dont-generate-png
+
+      - name: Update repository README
+        # README.md is currently a symlink in the repository. Replacing the
+        # destination makes the generated README a normal Git-tracked file.
+        run: cp --remove-destination build/full.md README.md
+
+      - name: Prepare GitHub Pages site
+        run: |
+          mkdir -p _site/academic _site/industry
+          cp build/full.html _site/index.html
+          cp build/RichardMyers-CV-Full.pdf _site/RichardMyers-CV-Full.pdf
+          cp build/academic.html _site/academic/index.html
+          cp build/RichardMyers-CV-Academic.pdf _site/academic/RichardMyers-CV-Academic.pdf
+          cp build/industry.html _site/industry/index.html
+          cp build/RichardMyers-CV-Industry.pdf _site/industry/RichardMyers-CV-Industry.pdf
+          touch _site/.nojekyll
+
+      - name: Commit generated README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Update generated CV README"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
