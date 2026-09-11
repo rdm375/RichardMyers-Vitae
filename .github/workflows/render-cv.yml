@@ -40,21 +40,18 @@ jobs:
             --markdown-path build/full.md \
             --html-path build/full.html \
             --pdf-path build/RichardMyers-CV-Full.pdf \
-            --dont-generate-typst \
             --dont-generate-png
 
           rendercv render RichardMyers-CV-Academic.yaml \
             --markdown-path build/academic.md \
             --html-path build/academic.html \
             --pdf-path build/RichardMyers-CV-Academic.pdf \
-            --dont-generate-typst \
             --dont-generate-png
 
           rendercv render RichardMyers-CV-Industry.yaml \
             --markdown-path build/industry.md \
             --html-path build/industry.html \
             --pdf-path build/RichardMyers-CV-Industry.pdf \
-            --dont-generate-typst \
             --dont-generate-png
 
       - name: Update repository README
