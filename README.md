@@ -42,6 +42,48 @@ Operates effectively across **research, architecture, and implementation**
 
 Proven record of **long-horizon technical ownership** and sustained innovation
 
+# Volunteer Leadership & Community Service
+## **Volunteer / Organizational Development**, Club Alterations -- Pasadena, TX
+
+2026 – present
+
+- Assist with the administration and development of a nonprofit community recovery clubhouse providing meeting space for independent peer-support groups.
+
+- Helped organize the club’s transition to formal nonprofit status, including Texas organizational filings, federal tax-exemption documentation, and supporting governance records.
+
+- Developed administrative procedures and documentation for banking, financial controls, organizational governance, and regulatory compliance.
+
+- Support the club’s web presence and technical infrastructure, including website development, search visibility, and information management.
+
+- Perform regular cleaning, upkeep, and hands-on facility improvements, including painting, caulking, window-film installation, and other work to improve the appearance and condition of the clubhouse.
+
+- Contribute to day-to-day facility operations and other volunteer activities supporting the club and the independent groups that use the facility.
+
+
+
+# Open-Source Software & Independent Development
+## **Independent Developer**, Independent -- Houston, TX
+
+2025 – present
+
+- Develop and publish open-source software spanning Linux systems, cybersecurity, storage and backup infrastructure, local-first applications, scientific computing, and developer tooling.
+
+- Created **FastBox**, a local-first Python/FastAPI collaboration platform providing file sharing, WebSocket chat, threaded discussions, media browsing, SQLite FTS5 search, moderation tools, security controls, and automated testing.
+
+- Developed **PulsePadGTK4**, a C++17/GTKmm Linux audio application using GStreamer and RtMidi for multi-pad playback, waveform trimming, playback groups, ducking, MIDI control, and board import/export.
+
+- Developed **SyncVault**, an infrastructure-as-code backup and disaster-recovery appliance integrating ZFS, Sanoid, Syncthing, Restic, QEMU/KVM, immutable offsite storage, and automated restore validation.
+
+- Developed **zvolt**, a Linux CLI for YubiKey/FIDO2-unlocked LUKS2 encrypted filesystems backed by ZFS zvols, with snapshot, clone, rollback, recovery, integrity-checking, and failure-safety mechanisms.
+
+- Developed **Credgen**, a Go CLI and library for cryptographically secure generation of credentials and identifiers using a custom template language with entropy analysis, recursive expansion, validation, and configurable datasets.
+
+- Maintain additional public projects involving virtualization, credential-management architecture, numerical and signal-processing methods, software modernization, Linux automation, and technical documentation.
+
+- Apply software-engineering practices including version control, automated testing, security and failure-mode analysis, reproducible deployment, release management, user documentation, and open-source licensing.
+
+
+
 # Professional Experience
 ## **Software Development Scientist**, DNV -- Katy, TX
 
