@@ -102,6 +102,36 @@ cv:
           - Drove **cross-team technical enablement and knowledge transfer** through **internal seminars**, **developer training**, **technical documentation**, and direct collaboration with **research**, **product**, and **customer-facing engineering teams**.
           - Proven record of long-horizon technical ownership and sustained innovation
 
+    Open-Source Software & Independent Development:
+      - company: Independent Development
+        position: Independent Developer
+        start_date: 2025
+        end_date: present
+        summary:
+        highlights:
+          - Develop and publish open-source software in scientific and technical computing, Linux systems, cybersecurity, storage and data preservation, local-first applications, and developer tooling.
+          - Develop **FastBox**, a Python/FastAPI local-first collaboration platform using WebSockets, SQLite/FTS5, filesystem storage, security controls, and automated testing.
+          - Develop **PulsePadGTK4**, a C++17/GTKmm application integrating GStreamer and MIDI, with an architecture separating testable computational logic from GUI, audio-hardware, and external-device dependencies.
+          - Develop **SyncVault**, a reproducible backup and disaster-recovery system integrating ZFS, Sanoid, Syncthing, Restic, QEMU/KVM, immutable offsite storage, and automated restore validation.
+          - Develop **zvolt**, a Linux systems utility integrating ZFS block storage, LUKS2 encryption, and YubiKey/FIDO2 authentication, with explicit recovery, snapshot, rollback, integrity, and failure-safety mechanisms.
+          - Develop **Credgen**, a Go command-line utility and library implementing a template language for cryptographically secure randomized credential generation, including parsing, recursive expansion, constraint validation, and entropy analysis.
+          - Maintain additional public work in numerical methods, signal processing, machine-learning interpolation, scientific-software modernization, virtualization, and reproducible technical documentation.
+
+    Volunteer Leadership & Community Service:
+      - company: Club Alterations
+        position: Volunteer / Organizational Development
+        start_date: 2026
+        end_date: present
+        location: Pasadena, TX
+        summary:
+        highlights:
+          - Assist with the administration and development of a nonprofit community recovery clubhouse providing meeting space for independent peer-support groups.
+          - Helped organize the club’s transition to formal nonprofit status, including Texas organizational filings, federal tax-exemption documentation, and supporting governance records.
+          - Developed administrative procedures and documentation for banking, financial controls, organizational governance, and regulatory compliance.
+          - Support the club’s web presence and technical infrastructure, including website development, search visibility, and information management.
+          - Perform regular cleaning, upkeep, and hands-on facility improvements, including painting, caulking, window-film installation, and other work to improve the appearance and condition of the clubhouse.
+          - Contribute to day-to-day facility operations and other volunteer activities supporting the club and the independent groups that use the facility.
+
     publications:
       - title: '*Step Doubling for Pipeline Flow*'
         authors:
