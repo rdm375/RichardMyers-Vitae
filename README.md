@@ -47,7 +47,7 @@ Proven record of **long-horizon technical ownership** and sustained innovation
 
 2026 – present
 
-- Assist with the administration and development of a nonprofit community recovery clubhouse providing meeting space for independent peer-support groups.
+- Assist with the administration and development of a nonprofit community clubhouse providing meeting space for independent peer-support groups.
 
 - Helped organize the club’s transition to formal nonprofit status, including Texas organizational filings, federal tax-exemption documentation, and supporting governance records.
 
@@ -55,7 +55,7 @@ Proven record of **long-horizon technical ownership** and sustained innovation
 
 - Support the club’s web presence and technical infrastructure, including website development, search visibility, and information management.
 
-- Perform regular cleaning, upkeep, and hands-on facility improvements, including painting, caulking, window-film installation, and other work to improve the appearance and condition of the clubhouse.
+- Perform regular cleaning, upkeep, and hands-on facility improvements to improve the appearance and condition of the clubhouse.
 
 - Contribute to day-to-day facility operations and other volunteer activities supporting the club and the independent groups that use the facility.
 
