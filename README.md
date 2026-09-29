@@ -68,6 +68,10 @@ Proven record of **long-horizon technical ownership** and sustained innovation
 
 - Develop and publish open-source software spanning Linux systems, cybersecurity, storage and backup infrastructure, local-first applications, scientific computing, and developer tooling.
 
+- Developed **ThermoGPU**, a validated C++/OpenMP/CUDA implementation of the multicomponent Peng–Robinson equation of state for high-throughput batched thermodynamic calculations; validation against ThermoPack and CPU/GPU differential testing exposed numerical instability in the cubic root solver, and a reformulated Cardano method reduced a representative polynomial residual from approximately 1.7×10⁻¹² to 7×10⁻¹⁸.
+
+- Characterized ThermoGPU CPU/GPU crossover behavior, scaling, and kernel performance across Maxwell/Linux and Ada/WSL2 systems; achieved approximately 34.1 million five-component states/s on the primary resident-CUDA benchmark, about 18.2× scalar CPU throughput and 5.9× the best tested CPU implementation. Released V1.0 with reproducible benchmarks, validation evidence, CI, CodeQL analysis, and a technical report. [github.com/rdm375/ThermoGPU](https://github.com/rdm375/ThermoGPU)
+
 - Created **FastBox**, a local-first Python/FastAPI collaboration platform providing file sharing, WebSocket chat, threaded discussions, media browsing, SQLite FTS5 search, moderation tools, security controls, and automated testing.
 
 - Developed **PulsePadGTK4**, a C++17/GTKmm Linux audio application using GStreamer and RtMidi for multi-pad playback, waveform trimming, playback groups, ducking, MIDI control, and board import/export.
@@ -460,7 +464,7 @@ Sept 1995 – May 2000
 
 **Automatic Differentiation:** Odyssee, Tapenade
 
-**Parallel Programming:** MPI, OpenMP
+**Parallel Programming:** MPI, OpenMP, CUDA
 
 **Environments:** GCC, Clang, Make/CMake,MS Visual Studio, VS Code, TFS
 
