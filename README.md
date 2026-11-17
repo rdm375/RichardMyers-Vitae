@@ -49,7 +49,7 @@ Proven record of **long-horizon technical ownership** and sustained innovation
 
 - Assist with the administration and development of a nonprofit community clubhouse providing meeting space for independent peer-support groups.
 
-- Helped organize the club’s transition to formal nonprofit status, including Texas organizational filings, federal tax-exemption documentation, and supporting governance records.
+- Club Alterations is a Texas nonprofit corporation recognized by the IRS as a tax-exempt 501(c)(3) public charity.
 
 - Developed administrative procedures and documentation for banking, financial controls, organizational governance, and regulatory compliance.
 
@@ -66,25 +66,25 @@ Proven record of **long-horizon technical ownership** and sustained innovation
 
 2025 – present
 
-- Develop and publish open-source software spanning Linux systems, cybersecurity, storage and backup infrastructure, local-first applications, scientific computing, and developer tooling.
+- Develop open-source software across scientific computing, numerical methods, high-performance computing, Linux infrastructure, security, and application development.
 
-- Developed **ThermoGPU**, a validated C++/OpenMP/CUDA implementation of the multicomponent Peng–Robinson equation of state for high-throughput batched thermodynamic calculations; validation against ThermoPack and CPU/GPU differential testing exposed numerical instability in the cubic root solver, and a reformulated Cardano method reduced a representative polynomial residual from approximately 1.7×10⁻¹² to 7×10⁻¹⁸.
+- Developed **ThermoGPU**, a validated C++/OpenMP/CUDA implementation of the multicomponent Peng–Robinson equation of state; improved cubic-root numerical stability and measured approximately 34.1 million five-component states per second in a resident-GPU benchmark. [github.com/rdm375/ThermoGPU](https://github.com/rdm375/ThermoGPU)
 
-- Characterized ThermoGPU CPU/GPU crossover behavior, scaling, and kernel performance across Maxwell/Linux and Ada/WSL2 systems; achieved approximately 34.1 million five-component states/s on the primary resident-CUDA benchmark, about 18.2× scalar CPU throughput and 5.9× the best tested CPU implementation. Released V1.0 with reproducible benchmarks, validation evidence, CI, CodeQL analysis, and a technical report. [github.com/rdm375/ThermoGPU](https://github.com/rdm375/ThermoGPU)
+- Built **TransientPipeStateFinder** and **ThetaOptimality** research software for transient pipeline state reconstruction and qualification, combining theta-method dynamics, matching discrete objectives, tangent-linear and adjoint sensitivities, identifiability analysis, and nonlinear restart-error assessment. [TransientPipeStateFinder](https://github.com/rdm375/TransientPipeStateFinder) · [ThetaOptimality](https://github.com/rdm375/ThetaOptimality)
 
-- Created **FastBox**, a local-first Python/FastAPI collaboration platform providing file sharing, WebSocket chat, threaded discussions, media browsing, SQLite FTS5 search, moderation tools, security controls, and automated testing.
+- Developed **transient-pipe-flow**, an isothermal pipeline simulator with Fortran 77 and C++20 CPU implementations, CUDA execution, analytic banded Newton solves, and conservation and cross-implementation validation; measured about 1.9× batched throughput versus eight CPU workers on the tested GPU. [github.com/rdm375/transient-pipe-flow](https://github.com/rdm375/transient-pipe-flow)
 
-- Developed **PulsePadGTK4**, a C++17/GTKmm Linux audio application using GStreamer and RtMidi for multi-pad playback, waveform trimming, playback groups, ducking, MIDI control, and board import/export.
+- Developed **TurboCompGPU**, a C++20 compressor and diffuser modeling project with operating-envelope analysis and quasi-steady coupling to transient pipe segments; added numerical regression, conservation, and controller-recovery checks. [github.com/rdm375/TurboCompGPU](https://github.com/rdm375/TurboCompGPU)
 
-- Developed **SyncVault**, an infrastructure-as-code backup and disaster-recovery appliance integrating ZFS, Sanoid, Syncthing, Restic, QEMU/KVM, immutable offsite storage, and automated restore validation.
+- Created **FrictionLibraryCpp20**, a header-only C++20 library implementing Colebrook–White solvers and explicit friction correlations, all-regime handling, analytic derivatives, batch evaluation, and CPU/CUDA benchmarking. [github.com/rdm375/FrictionLibraryCpp20](https://github.com/rdm375/FrictionLibraryCpp20)
 
-- Developed **zvolt**, a Linux CLI for YubiKey/FIDO2-unlocked LUKS2 encrypted filesystems backed by ZFS zvols, with snapshot, clone, rollback, recovery, integrity-checking, and failure-safety mechanisms.
+- Built **GuerrillaSlurmClusterUsb**, a manifest-driven Debian boot-image and Slurm cluster toolkit that provisions laptops as compute nodes and supports shared storage, scheduled workloads, and GPU or Hailo accelerator resources. [github.com/rdm375/GuerrillaSlurmClusterUsb](https://github.com/rdm375/GuerrillaSlurmClusterUsb)
 
-- Developed **Credgen**, a Go CLI and library for cryptographically secure generation of credentials and identifiers using a custom template language with entropy analysis, recursive expansion, validation, and configurable datasets.
+- Developed **MicroNutrientOptimizerCpp20**, a C++20 quadratic-programming application using OSQP to optimize nutrient-targeted recipes with explicit ingredient bounds, calorie constraints, and numerical feasibility checks. [github.com/rdm375/MicroNutrientOptimizerCpp20](https://github.com/rdm375/MicroNutrientOptimizerCpp20)
 
-- Maintain additional public projects involving virtualization, credential-management architecture, numerical and signal-processing methods, software modernization, Linux automation, and technical documentation.
+- Also developed **FastBox**, a local-first Python/FastAPI collaboration platform; **PulsePadGTK4**, a C++/GTKmm audio application; **SyncVault**, a backup and disaster-recovery appliance; **zvolt**, a YubiKey/FIDO2-backed encrypted ZFS volume tool; and **Credgen**, a Go credential-generation library and CLI.
 
-- Apply software-engineering practices including version control, automated testing, security and failure-mode analysis, reproducible deployment, release management, user documentation, and open-source licensing.
+- Apply software-engineering practices including version control, automated testing, numerical validation, performance measurement, security and failure-mode analysis, reproducible deployment, release management, documentation, and open-source licensing.
 
 
 
