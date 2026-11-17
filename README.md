@@ -70,7 +70,7 @@ Proven record of **long-horizon technical ownership** and sustained innovation
 
 - Developed **ThermoGPU**, a validated C++/OpenMP/CUDA implementation of the multicomponent Peng–Robinson equation of state; improved cubic-root numerical stability and measured approximately 34.1 million five-component states per second in a resident-GPU benchmark. [github.com/rdm375/ThermoGPU](https://github.com/rdm375/ThermoGPU)
 
-- Built **TransientPipeStateFinder** and **ThetaOptimality** research software for transient pipeline state reconstruction and qualification, combining theta-method dynamics, matching discrete objectives, tangent-linear and adjoint sensitivities, identifiability analysis, and nonlinear restart-error assessment. [TransientPipeStateFinder](https://github.com/rdm375/TransientPipeStateFinder) · [ThetaOptimality](https://github.com/rdm375/ThetaOptimality)
+- Developed **ThetaOptimality**, a C++20 research and teaching library for numerically consistent discrete optimality systems, with a theta-method forward model, matching discrete objective, tangent-linear and exact discrete-adjoint sensitivities, reduced gradients, Hessian-vector products, and state-identifiability and qualification examples. [github.com/rdm375/ThetaOptimality](https://github.com/rdm375/ThetaOptimality)
 
 - Developed **transient-pipe-flow**, an isothermal pipeline simulator with Fortran 77 and C++20 CPU implementations, CUDA execution, analytic banded Newton solves, and conservation and cross-implementation validation; measured about 1.9× batched throughput versus eight CPU workers on the tested GPU. [github.com/rdm375/transient-pipe-flow](https://github.com/rdm375/transient-pipe-flow)
 
