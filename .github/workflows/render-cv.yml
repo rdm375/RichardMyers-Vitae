@@ -54,10 +54,17 @@ jobs:
             --pdf-path build/RichardMyers-CV-Industry.pdf \
             --dont-generate-png
 
-      - name: Update repository README
+      - name: Update generated repository files
         # README.md is currently a symlink in the repository. Replacing the
         # destination makes the generated README a normal Git-tracked file.
-        run: cp --remove-destination build/full.md README.md
+        run: |
+          cp --remove-destination build/full.md README.md
+          cp build/full.md "rendercv_output/Richard_D_Myers,_Ph.D._CV-Full.md"
+          cp build/academic.md "rendercv_output/Richard_D_Myers,_Ph.D._CV-Academic.md"
+          cp build/industry.md "rendercv_output/Richard_D_Myers,_Ph.D._CV_Industry.md"
+          cp build/RichardMyers-CV-Full.pdf "rendercv_output/Richard_D_Myers,_Ph.D._CV-Full.pdf"
+          cp build/RichardMyers-CV-Academic.pdf "rendercv_output/Richard_D_Myers,_Ph.D._CV-Academic.pdf"
+          cp build/RichardMyers-CV-Industry.pdf "rendercv_output/Richard_D_Myers,_Ph.D._CV_Industry.pdf"
 
       - name: Prepare GitHub Pages site
         run: |
@@ -70,13 +77,13 @@ jobs:
           cp build/RichardMyers-CV-Industry.pdf _site/industry/RichardMyers-CV-Industry.pdf
           touch _site/.nojekyll
 
-      - name: Commit generated README
+      - name: Commit generated CV outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md rendercv_output/*.md rendercv_output/*.pdf
           if ! git diff --cached --quiet; then
-            git commit -m "Update generated CV README"
+            git commit -m "Update generated CV outputs"
             git push
           fi
 
