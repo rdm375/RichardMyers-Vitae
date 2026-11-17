@@ -42,6 +42,52 @@ Operates effectively across **research, architecture, and implementation**
 
 Proven record of **long-horizon technical ownership** and sustained innovation
 
+# Volunteer Leadership & Community Service
+## **Volunteer / Organizational Development**, Club Alterations -- Pasadena, TX
+
+2026 – present
+
+- Assist with the administration and development of a nonprofit community clubhouse providing meeting space for independent peer-support groups.
+
+- Club Alterations is a Texas nonprofit corporation recognized by the IRS as a tax-exempt 501(c)(3) public charity.
+
+- Developed administrative procedures and documentation for banking, financial controls, organizational governance, and regulatory compliance.
+
+- Support the club’s web presence and technical infrastructure, including website development, search visibility, and information management.
+
+- Perform regular cleaning, upkeep, and hands-on facility improvements to improve the appearance and condition of the clubhouse.
+
+- Contribute to day-to-day facility operations and other volunteer activities supporting the club and the independent groups that use the facility.
+
+
+
+# Open-Source Software & Independent Development
+## **Independent Developer**, Independent -- Houston, TX
+
+2025 – present
+
+- Develop open-source software across scientific computing, numerical methods, high-performance computing, Linux infrastructure, security, and application development.
+
+- Developed **ThermoGPU**, a validated C++/OpenMP/CUDA implementation of the multicomponent Peng–Robinson equation of state; improved cubic-root numerical stability and measured approximately 34.1 million five-component states per second in a resident-GPU benchmark. [github.com/rdm375/ThermoGPU](https://github.com/rdm375/ThermoGPU)
+
+- Developed **ThetaOptimality**, a C++20 research and teaching library for numerically consistent discrete optimality systems, with a theta-method forward model, matching discrete objective, tangent-linear and exact discrete-adjoint sensitivities, reduced gradients, Hessian-vector products, and state-identifiability and qualification examples. [github.com/rdm375/ThetaOptimality](https://github.com/rdm375/ThetaOptimality)
+
+- Developed **transient-pipe-flow**, an isothermal pipeline simulator with Fortran 77 and C++20 CPU implementations, CUDA execution, analytic banded Newton solves, and conservation and cross-implementation validation; measured about 1.9× batched throughput versus eight CPU workers on the tested GPU. [github.com/rdm375/transient-pipe-flow](https://github.com/rdm375/transient-pipe-flow)
+
+- Developed **TurboCompGPU**, a C++20 compressor and diffuser modeling project with operating-envelope analysis and quasi-steady coupling to transient pipe segments; added numerical regression, conservation, and controller-recovery checks. [github.com/rdm375/TurboCompGPU](https://github.com/rdm375/TurboCompGPU)
+
+- Created **FrictionLibraryCpp20**, a header-only C++20 library implementing Colebrook–White solvers and explicit friction correlations, all-regime handling, analytic derivatives, batch evaluation, and CPU/CUDA benchmarking. [github.com/rdm375/FrictionLibraryCpp20](https://github.com/rdm375/FrictionLibraryCpp20)
+
+- Built **GuerrillaSlurmClusterUsb**, a manifest-driven Debian boot-image and Slurm cluster toolkit that provisions laptops as compute nodes and supports shared storage, scheduled workloads, and GPU or Hailo accelerator resources. [github.com/rdm375/GuerrillaSlurmClusterUsb](https://github.com/rdm375/GuerrillaSlurmClusterUsb)
+
+- Developed **MicroNutrientOptimizerCpp20**, a C++20 quadratic-programming application using OSQP to optimize nutrient-targeted recipes with explicit ingredient bounds, calorie constraints, and numerical feasibility checks. [github.com/rdm375/MicroNutrientOptimizerCpp20](https://github.com/rdm375/MicroNutrientOptimizerCpp20)
+
+- Also developed **FastBox**, a local-first Python/FastAPI collaboration platform; **PulsePadGTK4**, a C++/GTKmm audio application; **SyncVault**, a backup and disaster-recovery appliance; **zvolt**, a YubiKey/FIDO2-backed encrypted ZFS volume tool; and **Credgen**, a Go credential-generation library and CLI.
+
+- Apply software-engineering practices including version control, automated testing, numerical validation, performance measurement, security and failure-mode analysis, reproducible deployment, release management, documentation, and open-source licensing.
+
+
+
 # Professional Experience
 ## **Software Development Scientist**, DNV -- Katy, TX
 
@@ -384,7 +430,8 @@ Todd F Dupont, Richard D Myers
 
 
 # Education
-## **University of Houston–University Park**, PhD in Mathematics -- Houston, TXSept 2003 – Aug 2005
+## **University of Houston–University Park**, PhD in Mathematics -- Houston, TX
+Sept 2003 – Aug 2005
 
 - Dissertation: *Numerically Consistent Approximations for Optimal Control Problems Applied to Stiff Chemical Systems*
 
@@ -396,13 +443,15 @@ Todd F Dupont, Richard D Myers
 
 
 
-## **University of Houston–University Park**, MS in Applied Mathematics -- Houston, TXSept 2000 – May 2002
+## **University of Houston–University Park**, MS in Applied Mathematics -- Houston, TX
+Sept 2000 – May 2002
 
 Focused on Numerical Analysis and Scientific Computing: Numerical ODEs, PDEs, Linear Algebra, Optimization, and Parallel Programming.
 
 
 
-## **University of Houston–University Park**, BS in Mathematics -- Houston, TXSept 1995 – May 2000
+## **University of Houston–University Park**, BS in Mathematics -- Houston, TX
+Sept 1995 – May 2000
 
 - Graduated Magna Cum Laude
 
@@ -415,7 +464,7 @@ Focused on Numerical Analysis and Scientific Computing: Numerical ODEs, PDEs, Li
 
 **Automatic Differentiation:** Odyssee, Tapenade
 
-**Parallel Programming:** MPI, OpenMP
+**Parallel Programming:** MPI, OpenMP, CUDA
 
 **Environments:** GCC, Clang, Make/CMake,MS Visual Studio, VS Code, TFS
 
